@@ -18,7 +18,6 @@ def get_response(user_input):
 
         return "Hey there! How's it going?"
 
-
     elif "how are you" in user_input:
 
         return "I'm just code, but I'm doing great!"

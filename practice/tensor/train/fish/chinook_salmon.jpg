@@ -1,0 +1,597 @@
+<br />
+<b>Warning</b>:  Undefined array key "sec_type" in <b>/home/salmoneye/public_html/webmasterCMS/functions/functions.php</b> on line <b>408</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_type" in <b>/home/salmoneye/public_html/webmasterCMS/functions/functions.php</b> on line <b>582</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /home/salmoneye/public_html/webmasterCMS/functions/functions.php:408) in <b>/home/salmoneye/public_html/webmasterCMS/siteServer.php</b> on line <b>43</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "mod_dir" in <b>/home/salmoneye/public_html/webmasterCMS/siteServer.php</b> on line <b>51</b><br />
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+
+	
+<br />
+<b>Warning</b>:  Undefined array key "pg_preview" in <b>/home/salmoneye/public_html/webmasterCMS/functions/functions.php</b> on line <b>1838</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "pg_meta_title" in <b>/home/salmoneye/public_html/webmasterCMS/functions/functions.php</b> on line <b>1854</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "pg_title" in <b>/home/salmoneye/public_html/webmasterCMS/functions/functions.php</b> on line <b>1855</b><br />
+<br />
+<b>Deprecated</b>:  str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in <b>/home/salmoneye/public_html/webmasterCMS/functions/functions.php</b> on line <b>1855</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "pg_keywords" in <b>/home/salmoneye/public_html/webmasterCMS/functions/functions.php</b> on line <b>1859</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "pg_description" in <b>/home/salmoneye/public_html/webmasterCMS/functions/functions.php</b> on line <b>1864</b><br />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2">
+
+		<title>  Salmon Eye Charters -  </title>
+		<meta name="description" content="" />
+		<meta name="generator" content="WebmasterCMS https://www.incontrolsolutions.com" />
+		<!-- Is Error 404 -->
+		<meta name="robots" content="noindex, nofollow">
+
+		<!-- Google Verify Accounts -->
+			<META name="google-site-verification" content="2VIMKdEz22_y2wWEqsysKxPGo2CuMo2GalWU2O4cMss" />
+
+<br />
+<b>Warning</b>:  Undefined array key "sub_theme" in <b>/home/salmoneye/public_html/webmasterCMS/functions/functions.php</b> on line <b>1721</b><br />
+
+		<!-- WebmasterCMS Combined and minified CSS code -->
+		<style>
+			html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,xpre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,hgroup,menu,nav,section,menu,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:#fff0}article,aside,figure,footer,header,hgroup,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:#fff0}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}body{font:13px sans-serif;*font-size:small;*font:x-small;line-height:1.22}table{font-size:inherit;font:100%}xpre,code,kbd,samp{font-family:monospace,sans-serif}body,select,input,textarea{color:#444}h1,h2,h3,h4,h5,h6{font-weight:700;text-rendering:optimizeLegibility}html{-webkit-font-smoothing:antialiased}a:hover,a:active{outline:none}a,a:active,a:visited{color:#607890}a:hover{color:#036}ul{margin-left:30px}ol{margin-left:30px;list-style-type:decimal}small{font-size:85%}strong,th{font-weight:700}td,td img{vertical-align:top}sub{vertical-align:sub;font-size:smaller}sup{vertical-align:super;font-size:smaller}xpre{padding:15px;white-space:pre;white-space:pre-wrap;white-space:pre-line;word-wrap:break-word}input[type="radio"]{vertical-align:text-bottom}input[type="checkbox"]{vertical-align:bottom;*vertical-align:baseline}.ie6 input{vertical-align:text-bottom}label,input[type=button],input[type=submit],button{cursor:pointer}::-moz-selection{background:#58719b;color:#fff;text-shadow:none}::selection{background:#58719b;color:#fff;text-shadow:none}a:link{-webkit-tap-highlight-color:#FF5E99}html{overflow-y:scroll}button{width:auto;overflow:visible}.ie7 img{-ms-interpolation-mode:bicubic}.ir{display:block;text-indent:-999em;overflow:hidden;background-repeat:no-repeat}.hidden{display:none;visibility:hidden}.visuallyhidden{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}.invisible{visibility:hidden}.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}.clearfix{display:inline-block}* html .clearfix{height:1%}.clearfix{display:block}@media print{*{background:transparent!important;color:#444!important;text-shadow:none}a,a:visited{color:#444!important;text-decoration:underline}a:after{content:" (" attr(href) ")"}abbr:after{content:" (" attr(title) ")"}.ir a:after{content:""}xpre,blockquote{border:1px solid #999;page-break-inside:avoid}img{page-break-inside:avoid}@page{margin:.5cm}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}@media screen and (max-device-width:480px){html{-webkit-text-size-adjust:none;-ms-text-size-adjust:none}}form.simple div.thefield{position:relative;box-sizing:border-box}form.simple div.thefield.alert{border:0 solid #640000}form.simple div.thefield.pass:after{font-family:FontAwesome,'Font Awesome 5 Pro';content:"\f00c";position:absolute;right:11px;top:9px;font-size:18px;color:rgb(50 105 19 / .5)}form.simple div.thefield.alert::after{font-family:FontAwesome,'Font Awesome 5 Pro';content:"\f071";position:absolute;right:11px;top:10px;font-size:18px;color:rgb(255 0 0 / .5)}form.simple div.fieldwrapper .thefield span.error{font-size:.7em;display:block;clear:both;line-height:1.2em}form.simple input.text.alert{border:1px solid #903!important}form.simple{padding:0;margin:0;font-size:16px;line-height:24px;max-width:870px;margin:0 auto}form.simple fieldset{margin:20px 0;border:0;padding:5px 0}form.simple legend{font-size:18px;line-height:24px;border-bottom:1px solid #666}form.simple input{padding:12px 10px;font-size:16px;font-weight:400;line-height:20px;color:#333;transition:ease-in-out all .5s;background-color:rgb(255 255 255 / .6)}form.simple .thefield.focus input{font-size:16px}form.simple .thefield.focus input,form.simple .thefield.pass input,form.simple .thefield.alert input{padding:16px 10px 8px;line-height:20px}form.simple .thefield.pass input{border-color:#113b0c!important;background-color:rgb(255 255 255 / .7)!important;color:#113b0c}form.simple input::placeholder{color:#3f3f3f}form.simple .focus input::placeholder{color:#fff0;font-weight:400;display:none}form.simple .thefield::before{position:absolute;color:#414141;width:auto;height:1px;top:4px;left:10px;content:attr(data-placeholder);font-size:11px;line-height:14px;opacity:0;transition:ease-in-out all .5s}form.simple .thefield.focus::before,form.simple .thefield.pass::before{opacity:1;top:4px;height:auto}form.simple div.description{padding-bottom:10px;font-style:normal}form.simple div.fieldwrapper{overflow:hidden;padding:2px;position:relative;margin-top:2px}form.simple div.fieldwrapper:focus{background-color:#EAFAEC}form.simple div.fieldwrapper label.styled{float:left;width:165px;text-transform:capitalize;border-bottom:0 solid #666;margin:5px 5px auto 0;text-align:right;position:absolute;left:0;top:3px;white-space:nowrap;overflow:hidden;font-size:15px}form.simple div.fieldwrapper div.thefield{margin-left:170px}form.simple div.fieldwrapper.noLabel label.styled,form.simple fieldset.noLabel div.fieldwrapper label.styled,form.simple.noLabel fieldset div.fieldwrapper label.styled{width:0;display:none}form.simple div.fieldwrapper.noLabel label.styled.visible,form.simple fieldset.noLabel div.fieldwrapper label.styled.visible,form.simple.noLabel fieldset div.fieldwrapper label.styled.visible{width:auto;display:block;position:relative}form.simple div.fieldwrapper.noLabel div.thefield,form.simple fieldset.noLabel div.fieldwrapper div.thefield,form.simple.noLabel fieldset div.fieldwrapper div.thefield{margin-left:0}form.simple div.fieldwrapper.label75 label.styled,form.simple fieldset.label75 div.fieldwrapper label.styled,form.simple.label75 fieldset div.fieldwrapper label.styled{width:75px}form.simple div.fieldwrapper.label75 div.thefield,form.simple fieldset.label75 div.fieldwrapper div.thefield,form.simple.label75 fieldset div.fieldwrapper div.thefield{margin-left:80px}form.simple div.fieldwrapper.label100 label.styled,form.simple fieldset.label100 div.fieldwrapper label.styled,form.simple.label100 fieldset div.fieldwrapper label.styled{width:100px}form.simple div.fieldwrapper.label100 div.thefield,form.simple fieldset.label100 div.fieldwrapper div.thefield,form.simple.label100 fieldset div.fieldwrapper div.thefield{margin-left:105px}form.simple div.fieldwrapper.label125 label.styled,form.simple fieldset.label125 div.fieldwrapper label.styled,form.simple.label125 fieldset div.fieldwrapper label.styled{width:125px}form.simple div.fieldwrapper.label125 div.thefield,form.simple fieldset.label125 div.fieldwrapper div.thefield,form.simple.label125 fieldset div.fieldwrapper div.thefield{margin-left:130px}form.simple div.fieldwrapper.label150 label.styled,form.simple fieldset.label150 div.fieldwrapper label.styled,form.simple.label150 fieldset div.fieldwrapper label.styled{width:150px}form.simple div.fieldwrapper.label150 div.thefield,form.simple fieldset.label150 div.fieldwrapper div.thefield,form.simple.label150 fieldset div.fieldwrapper div.thefield{margin-left:155px}form.simple div.fieldwrapper.fulllabel label.styled,form.simple div.fieldwrapper.labelfull label.styled{width:100%;clear:both;position:relative;text-align:left;float:none;padding-bottom:5px;display:block;text-transform:none}form.simple div.fieldwrapper.required label.styled{font-weight:700}form.simple div.fieldwrapper.required label.styled:after{content:" *";color:#900}form.simple div.fieldwrapper .thefield ul{width:100%!important;margin:0px!important;padding:0px!important}form.simple div.fieldwrapper .thefield ul li{margin:0px!important;display:block!important;padding:0 0 5px!important;list-style-type:none!important;clear:both!important;background-image:none!important;width:100%!important;position:relative;height:20px}form.simple div.fieldwrapper .thefield ul li label{margin:0 0 0 20px;display:block;padding-top:6px;clear:right;width:auto;color:#333}form.simple div.fieldwrapper .thefield span.instruction{font-size:80%;color:#666;display:block;clear:both}form.simple div.fieldwrapper div.thefield input{margin:3px 0}form.simple div.fieldwrapper div.thefield input.text{margin:3px 0;-moz-box-sizing:border-box;box-sizing:border-box;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;width:100%;border:1px solid #999}form.simple div.fieldwrapper div.thefield.two div{float:left;width:48%;margin-right:2%!important}form.simple div.fieldwrapper div.thefield.two div:last-child{width:50%;margin-right:0!important}form.simple div.fieldwrapper div.thefield.two ul li{box-sizing:border-box;clear:none!important;display:block;float:left!important;width:48%!important;margin-right:2%!important}form.simple div.fieldwrapper div.fieldset.two div{float:left;width:48%;margin-right:2%!important}form.simple div.fieldwrapper div.fieldset.two div:last-child{width:50%;margin-right:0!important}form.simple div.fieldwrapper div.fieldset.two ul li{box-sizing:border-box;clear:none!important;display:block;float:left!important;width:48%!important;margin-right:2%!important}form.simple div.fieldwrapper div.thefield.three div{float:left;width:31.33%;margin-right:2%!important}form.simple div.fieldwrapper div.thefield.three div:last-child{width:33.33%;margin-right:0!important}form.simple div.fieldwrapper div.thefield.three ul li{box-sizing:border-box;clear:none!important;display:block;float:left!important;width:31.33%!important;margin-right:2%!important}form.simple div.fieldwrapper div.fieldset.three div{float:left;width:31.33%;margin-right:2%!important}form.simple div.fieldwrapper div.fieldset.three div:last-child{width:33.33%;margin-right:0!important}form.simple div.fieldwrapper div.fieldset.three ul li{box-sizing:border-box;clear:none!important;display:block;float:left!important;width:31.11%!important;margin-right:2%!important}form.simple div.fieldwrapper div.thefield.four div{float:left;width:23%;margin-right:2%!important}form.simple div.fieldwrapper div.thefield.four div:last-child{width:25%;margin-right:0!important}form.simple div.fieldwrapper div.thefield.four ul li{box-sizing:border-box;clear:none!important;display:block;float:left!important;width:23%!important;margin-right:2%!important}form.simple div.fieldwrapper div.fieldset.four div{float:left;width:23%;margin-right:2%!important}form.simple div.fieldwrapper div.fieldset.four div:last-child{width:25%;margin-right:0!important}form.simple div.fieldwrapper div.fieldset.four ul li{box-sizing:border-box;clear:none!important;display:block;float:left!important;width:23%!important;margin-right:2%!important}form.simple div.fieldwrapper div.thefield input.text:focus{border:1px solid #31AAE2;background-color:rgb(255 255 255 / .5);color:#000}form.simple div.fieldwrapper div.thefield input.radio,form.simple div.fieldwrapper div.thefield input.checkbox{float:left;cursor:pointer;padding-top:0;padding-bottom:0}form.simple div.fieldwrapper div.thefield textarea{width:100%;height:150px;border:1px solid #999}form.simple div.fieldwrapper div.thefield select{width:100%;margin:4px 0;line-height:normal;height:54px;border:1px solid #999;border-radius:3px}form.simple div.buttonsdiv{margin:15px 30px 15px 180px;text-align:right}form.simple.noLabel div.buttonsdiv{margin:15px 0 15px 0;text-align:right}form.simple .g-recaptcha{margin:20px auto 0;width:304px}@media only screen and (max-width:600px){form.simple div.fieldwrapper div.thefield,form.simple div.fieldwrapper.label75 div.thefield,form.simple fieldset.label75 div.fieldwrapper div.thefield,form.simple.label75 fieldset div.fieldwrapper div.thefield,form.simple div.fieldwrapper.label100 div.thefield,form.simple fieldset.label100 div.fieldwrapper div.thefield,form.simple.label100 fieldset div.fieldwrapper div.thefield,form.simple div.fieldwrapper.label125 div.thefield,form.simple fieldset.label125 div.fieldwrapper div.thefield,form.simple.label125 fieldset div.fieldwrapper div.thefield,form.simple div.fieldwrapper.label150 div.thefield,form.simple fieldset.label150 div.fieldwrapper div.thefield,form.simple.label150 fieldset div.fieldwrapper div.thefield{margin-left:0}form.simple div.fieldwrapper label.styled,form.simple div.fieldwrapper.label75 label.styled,form.simple fieldset.label75 div.fieldwrapper label.styled,form.simple.label75 fieldset div.fieldwrapper label.styled,form.simple div.fieldwrapper.label100 label.styled,form.simple fieldset.label100 div.fieldwrapper label.styled,form.simple.label100 fieldset div.fieldwrapper label.styled,form.simple div.fieldwrapper.label125 label.styled,form.simple fieldset.label125 div.fieldwrapper label.styled,form.simple.label125 fieldset div.fieldwrapper label.styled,form.simple div.fieldwrapper.label150 label.styled,form.simple fieldset.label150 div.fieldwrapper label.styled,form.simple.label150 fieldset div.fieldwrapper label.styled,form.simple div.fieldwrapper.fulllabel label.styled,form.simple div.fieldwrapper.labelfull label.styled{width:100%;clear:both;position:relative;text-align:left;float:none;padding-bottom:0;margin:0;display:block;text-transform:none}form.simple div.buttonsdiv{margin:15px 0}form.simple div.fieldwrapper{padding:0;margin-top:0}form.simple div.fieldwrapper.alert::after,form.simple div.fieldwrapper.pass::after{top:54px}form.simple div.fieldwrapper div.fieldset.two div{float:none;width:100%;margin-right:0%!important}form.simple div.fieldwrapper div.fieldset.two div:last-child{width:100%;margin-right:0!important}form.simple div.fieldwrapper div.fieldset.two ul li{box-sizing:border-box;clear:both!important;display:block;float:left!important;width:100%!important;margin-right:0%!important}form.simple div.fieldwrapper div.fieldset.three div{float:none;width:100%;margin-right:0%!important}form.simple div.fieldwrapper div.fieldset.three div:last-child{width:100%;margin-right:0!important}form.simple div.fieldwrapper div.fieldset.three ul li{box-sizing:border-box;clear:both!important;display:block;float:left!important;width:100%!important;margin-right:0%!important}}.response{padding:20px;border:4px solid #fff;background-color:rgb(255 255 255 / .7);margin:20px;text-align:center;box-shadow:0 0 7px rgb(0 0 0 / .4)}#content .response h2{color:#000}body{background:#ececec;height:100%;color:#5e5e5e;font:400 17px/30px "Open Sans",Helvetica,sans-serif}.width{width:100%;max-width:1200px;height:100%;margin:0 auto;position:relative;box-sizing:border-box}#container{overflow:hidden;width:100%;padding-top:90px}#page{position:relative;padding:0 15px}#top{height:78px;position:relative;width:100%;background-color:rgb(255 255 255)}a{color:#fff}#logo{position:absolute;display:block;text-indent:-2000em;bottom:-40px;left:15px;width:230px;height:130px;background:#fff url(/themes/Salmon25/images/layout/Logo.svg) center top no-repeat;box-shadow:0 3px 8px 3px rgb(0 0 0 / .5);transition:all 0.5s ease;border-bottom:solid 5px #fff}#topspacer{height:48px}#topNav{background-color:#23354b;z-index:510;height:90px;position:absolute;top:0;left:0;width:100%;box-shadow:0 4px 2px 2px rgb(0 0 0 / .1);border-bottom:1px solid rgb(255 255 255 / .2)}.sticky #topNav{position:fixed;top:-40px}.sticky #logo{background:#fff0 url(/themes/Salmon25/images/layout/logoSmall.svg) center top no-repeat;box-shadow:0 0 0 0 #fff0;background-size:contain;width:160px;height:80px;bottom:-22px;border-bottom:0}.sticky #mainnav{left:200px}#topNav .social{border:1px solid rgb(255 255 255 / .51);border-top:none;background-color:rgb(0 0 0 / .32);float:right;height:40px;margin-right:15px;margin-top:0;position:relative;width:285px;box-sizing:border-box}.social .phone{color:#fff;font:normal 17px/22px 'PT Sans',Times,Helvetica,sans-serif;text-align:center;position:relative;top:10px;max-width:45%}.social a.button{margin:2px 0;font:700 16px/48px 'Lato',Arial,Helvetica,sans-serif;display:inline-block;padding:0 50px 0 20px;text-decoration:none!important;background:#5aacd7 url(/themes/Salmon25/images/content/linkarrow.png) no-repeat right 50%;height:48px;overflow:hidden;border-style:none!important;color:#FFF;white-space:nowrap;text-overflow:ellipsis}.social a.button{position:absolute;top:4px;right:5px;font:700 14px/28px 'Lato',Arial,Helvetica,sans-serif;height:28px;background-size:auto 100%;padding:0 35px 0 10px}.social ul,.social ul li{list-style:none;margin:0;padding:0}.social ul{width:100%;position:absolute;text-align:center;max-width:50%;right:2px;top:3px}.social ul li{margin:0 2px;display:inline}.social ul li a{display:inline-block;width:24px;height:24px;border-radius:3px;border:1px solid #fff0;text-align:center;line-height:24px!important;font-size:14px;color:#ccc;font-weight:700;transition:transform .2s ease-in-out,color .2s ease-in-out,background-color .2s ease-in-out}.social ul li a.facebook{background-color:#3b5999}.social ul li a.twitter{background-color:#4099FF}.social ul li a.instagram{background-color:#3f729b}.social ul li a.googlePlus{background-color:#dd4c39}.social ul li a.pinterest{background-color:#C92228}.social ul li a:hover{color:#fff;border:1px solid #69f;transform:scale(1.1);box-shadow:0 0 10px rgb(0 0 0 / .1)}#contact{float:right;width:auto;padding:15px 15px 0 5px}#contact ul,#contact ul li{list-style:none;margin:0;padding:0}#contact ul li i.fa{font-size:20px;width:40px;height:22px;text-align:center;display:inline-block;color:#ccc;transform:scale(1.1)}#contact ul li i.fa-mobile{font-size:24px!important;transform:scale(1.3)}#contact ul li a{display:inline-block;text-decoration:none;color:#69f;font:700 normal 18px/24px 'Open Sans',Helvetica,sans-serif;transition:transform .2s ease-in-out,color .2s ease-in-out;transform-origin:center left}#contact ul li a.email{font:700 normal 16px/24px 'Open Sans',Helvetica,sans-serif}#contact ul li a:hover{color:#69f;transform:scale(1.05)}header{position:relative;overflow:hidden;background:#aeccff;width:100%}#banner-rotator,header #stage{width:100vw}header #banner-rotator{width:100vw;height:100%}#banner-rotator-track,#banner-rotator-list{height:100%}header .swiper-container,header .swiper-slide{width:100vw}header .splide__slide{display:flex!important;align-items:center!important;justify-content:center!important;height:100%!important}header .splide__slide img{object-fit:cover;width:100%!important;height:100%!important}#main{position:relative;padding:10px 0 20px}#content{position:relative;width:100%;margin:0;padding:50px 0 0 0;min-height:500px;box-sizing:border-box;max-width:1170px}#page.pinned #sidebar{position:fixed;top:100px}#page.pinned #sidebar.pinned{top:auto;position:absolute;bottom:30px}#mainnav{position:absolute;bottom:5px;left:255px;width:auto;right:0;height:40px;transition:left 0.5s ease}footer{width:100%;height:430px;position:relative;z-index:10;font:normal 15px/30px 'Open Sans',Arial,Helvetica,sans-serif;padding:0;color:#969595;border-top:10px solid #5aabd6;background-color:#23354b;box-sizing:border-box;padding-bottom:70px}footer .width{box-sizing:border-box;height:auto}footer .inner{margin:0 auto;position:relative;width:100%;max-width:1200px;height:100%}#finfo{position:absolute;top:40px;left:0;width:230px}#flogo{position:absolute;display:block;text-indent:-2000em;left:15px;width:220px;height:125px;background:#fff url(/themes/Salmon25/images/layout/Logo.svg) center top no-repeat;transition:all 0.5s ease;border:5px solid #fff}#footnav{position:absolute;right:10px;top:40px;width:100%;max-width:870px}#contactinfo{position:absolute;color:#23354b;left:0;width:100%;text-align:center;bottom:0;height:70px;font:normal 15px/70px 'Open Sans',Arial,Helvetica,sans-serif;background-color:#fff}#contactinfo a{display:inline-block;text-decoration:none;color:#69f;transition:transform .2s ease-in-out,color .2s ease-in-out;transform-origin:center left}#contactinfo a:hover{color:#69f;transform:scale(1.05)}footer #incontrol{text-align:right;position:absolute;height:auto;width:auto;right:15px;bottom:0;color:#f5f5f5;font:normal 10px/24px 'Open Sans',Arial,Helvetica,sans-serif;opacity:1;transition:all .3s}.sticky footer #incontrol{opacity:.1}footer #incontrol:hover{opacity:.5}footer #incontrol a{color:#e2eeff;text-decoration:none}footer #incontrol a .highlight{color:#e2eeff;text-decoration:none}footer #incontrol a:hover{color:#fff}#newsArchiveList{margin-right:-30px}.newsArchive{width:270px;height:auto;float:left;margin:0 30px 30px 0;background-color:#fff;box-shadow:0 0 5px rgb(0 0 0 / .3);-webkit-transition:transform .3s ease-in-out,background-color .3s ease-in-out;-moz-transition:transform .3s ease-in-out,background-color .3s ease-in-out;-o-transition:transform .3s ease-in-out,background-color .3s ease-in-out;transition:transform .3s ease-in-out,background-color .3s ease-in-out}#content .newsArchive a,#content .newsArchive a:visited{color:#000;line-height:0;display:block;text-decoration:none}#content .newsArchive a img{width:100%!important;box-shadow:none;margin:0}#content .newsArchive a>div{padding:0 10px 10px 10px;font:400 12px/16px 'Lato',Helvetica,sans-serif}#content .newsArchive a:hover{text-decoration:none!important;color:inherit!important}#content .newsArchive a>div .date{background-color:#dadada;color:#333;font:700 12px/22px 'Lato',Helvetica,sans-serif;padding:0 0 0 10px;margin:0 -10px}#content .newsArchive a>div .title{font:normal 600 14px/18px 'Lato',Helvetica,sans-serif;display:block;text-align:left!important;margin:5px 0 8px;color:#782104}#content .newsArchive:hover{-ms-transform:rotate(0deg)!important;-webkit-transform:rotate(0deg)!important;transform:rotate(0deg) scale(1.1)!important}:focus{outline:thick none #000}ul.mainNav{list-style:none;line-height:normal;margin:0;padding:0}ul.mainNav .sec_1{display:none}ul.mainNav .sec_12 ul{opacity:0!important}ul.mainNav .sec_14 ul{display:none!important}ul.mainNav>li{float:left;display:block;border-left:1px solid rgb(41 59 81 / .8)}ul.mainNav>li.first{background:none;border-left:0 solid #fff0}ul.mainNav>li a{font:normal 15px/22px 'Libre Baskerville',Times,Helvetica,sans-serif;font:normal 16px/40px 'Lato',Times,Helvetica,sans-serif;display:block;color:#2a3d52;color:#fff;text-decoration:none;text-align:left;float:left;padding:0 24px;box-sizing:border-box}ul.mainNav li a:hover{background:-moz-linear-gradient(top,#fff0 0%,rgb(35 53 75) 90%);background:-webkit-linear-gradient(top,#fff0 0%,rgb(35 53 75) 90%);background:linear-gradient(to bottom,#fff0 0%,rgb(35 53 75) 90%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0023354b',endColorstr='#23354b',GradientType=0);background:#395981;color:#fff}ul.mainNav li.current{background:rgb(0 0 0 / .1)}ul.mainNav li.current>a,ul.mainNav li.current>a:hover{color:#fff;background:rgb(57 89 129 / .7)}ul.mainNav li.sfHover>a,ul.mainNav li.sfHover>a:hover,ul.mainNav li a:hover{background:#395981}ul.mainNav ul{background:#395981;display:none;list-style:none;position:absolute;top:40px;margin:0;left:0;width:100%;box-sizing:border-box;padding:110px 40% 40px 10px;box-shadow:0 0 10px rgb(0 0 0 / .9);-moz-box-shadow:0 0 10px rgb(0 0 0 / .9);-webkit-box-shadow:0 0 10px rgb(0 0 0 / .9);clip:rect(0,1000px,1000px,-5px)}ul.mainNav ul li,ul.mainNav ul li.current{border:0;float:left;margin:0;padding:0;background:none;width:50%;box-sizing:border-box;z-index:100;position:relative}ul.mainNav ul li.first{background-repeat:no-repeat;background-position:center top;border-style:none}ul.mainNav ul li.first a{border-style:none}ul.mainNav ul li a,ul.mainNav li.sfHover ul li a,ul.mainNav ul li.current a{display:block;text-decoration:none!important;color:#fff;margin:0;background:none;text-transform:none;padding:2px 15px;font:normal 16px/26px 'Lato',arial,serif;background:none;height:auto;white-space:nowrap;-moz-transition-duration:.5s;-webkit-transition-duration:.5s}ul.mainNav ul li a:hover,ul.mainNav li.sfHover ul li a:hover{text-decoration:none;color:#fff;margin:0;height:auto;text-shadow:#000 0 0 3px;-moz-text-shadow:#000 0 0 3px;-webkit-text-shadow:#000 0 0 3px;background:rgb(255 255 255 / .2) url(/themes/armetal11/images/layout/mainNav/smallArrow.png) 235px 7px no-repeat}ul.mainNav ul ul{top:0;margin-top:0;margin-left:180px;display:none!important}ul.mainNav li ul li ul li{display:none!important}ul.mainNav a:hover,{color:#fff}ul.mainNav li.current ul li.current a{color:#fff}ul.mainNav li.current ul li.current{color:#FFF}ul.mainNav li.current ul li a{color:#FFF}ul.mainNav a.highlighted{color:#fff}ul.mainNav a .subind{display:none}ul.mainNav ul a .subind{display:block;float:right}ul.mainNav a{float:left}ul.mainNav ul a{float:none}ul.mainNav a{float:none}*:first-child+html ul.mainNav ul li{float:left;width:100%}* html ul.mainNav ul li{float:left;height:1%}* html ul.mainNav ul a{height:1%}ul.mainNav ul li.navinfo{position:absolute!important;margin:0!important;padding:0!important;display:block;border:none!important;top:0;left:0;width:100%;height:100%;z-index:1}.navextra{position:absolute;width:100%;height:230px;top:0;right:0;display:none}.navimg{position:relative;float:right;top:0;right:0;width:50%;height:100%;background-repeat:no-repeat;background-size:auto 100%;background-position:center center;background-size:cover}.navimg:after{content:"";position:absolute;height:100%;width:70%;left:0;background:-moz-linear-gradient(left,rgb(57 89 129) 5%,#fff0 60%);background:-webkit-linear-gradient(left,rgb(57 89 129) 5%,#fff0 60%);background:linear-gradient(to right,rgb(57 89 129) 5%,#fff0 60%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#395981',endColorstr='#00395981',GradientType=1)}.navtagline{font:400 22px/22px 'Lato',Arial,Helvetica,sans-serif;height:22px;width:auto;color:#fff;display:block;position:absolute;top:12px;left:0;left:0;padding:0 10px 0 20px}.navdesc{font:400 14px/18px 'Lato',Arial,Helvetica,sans-serif;height:56px;overflow:hidden;width:auto;color:#e6e9f2;display:block;position:absolute;top:42px;left:20px;padding:0 0 5px 0;margin-right:40%;border-bottom:1px solid #000}#footnav .sec_1{display:none!important}#footnav ul,#footnav li{margin:0;padding:0;list-style:none}#footnav ul li{float:left;width:20%;box-sizing:border-box}#footnav ul li a{color:#fff;font:400 14px/18px 'Lato',Arial,Helvetica,sans-serif;text-decoration:none;border-bottom:1px solid #5aacd7;display:block;margin:0 10px 0 0;padding:4px 0}#footnav ul li ul li{float:none;width:100%}#footnav ul li ul li a{color:#fff;font:300 12px/16px 'Lato',Arial,Helvetica,sans-serif;text-decoration:none;border-bottom:0 solid #000}:root{--gutter-width:2.5641%}.wcms-grid{display:flex;flex-wrap:wrap;width:calc(100% + var(--gutter-width));gap:var(--gutter-width)}.wcms-grid.width{width:100%;max-width:1170px;height:auto;margin:0 auto;position:relative;box-sizing:border-box}.wcms-row{display:flex;flex-wrap:wrap;width:100%;gap:var(--gutter-width);position:relative}.wcms-grid.flipped .wcms-row{display:flex;flex-direction:row-reverse;flex-wrap:wrap-reverse;right:var(--gutter-width)}.wcms-col-1{flex:0 0 calc(8.33% - var(--gutter-width))}.wcms-col-2{flex:0 0 calc(16.66% - var(--gutter-width))}.wcms-col-3{flex:0 0 calc(25% - var(--gutter-width))}.wcms-col-4{flex:0 0 calc(33.33% - var(--gutter-width))}.wcms-col-5{flex:0 0 calc(41.66% - var(--gutter-width))}.wcms-col-6{flex:0 0 calc(50% - var(--gutter-width))}.wcms-col-7{flex:0 0 calc(58.33% - var(--gutter-width))}.wcms-col-8{flex:0 0 calc(66.66% - var(--gutter-width))}.wcms-col-9{flex:0 0 calc(75% - var(--gutter-width))}.wcms-col-10{flex:0 0 calc(83.33% - var(--gutter-width))}.wcms-col-11{flex:0 0 calc(91.66% - var(--gutter-width))}.wcms-col-12{flex:0 0 calc(100% - var(--gutter-width))}.wcms-grid .wcms-row [class^="wcms-col"]{box-sizing:border-box}.wcms-grid .padded{padding:var(--gutter-width)}.wcms-grid .v-center{justify-content:center;display:flex;flex-direction:column}@media (min-width:1170px){:root{--gutter-width:30px}}@media (max-width:768px){.wcms-col-1,.wcms-col-2,.wcms-col-3,.wcms-col-4,.wcms-col-5,.wcms-col-6,.wcms-col-7,.wcms-col-8,.wcms-col-9,.wcms-col-10,.wcms-col-11,.wcms-col-12{flex:0 0 100%;max-width:100%;margin-bottom:30px}.wcms-grid,.wcms-row{gap:0;width:100%}.full .wcms-grid{margin-left:15px;margin-right:15px;box-sizing:border-box;width:auto}.wcms-row>div:last-child{margin-bottom:0}}#subnavbar{padding:0 0 22px 0}#subnavbar ul{padding:0;margin:0}#subnavbar ul li{list-style-type:none;line-height:1px}#subnavbar ul li a{display:block;padding-top:0;padding-bottom:2px;text-decoration:none;color:#3d4e68;font:700 16px/22px 'Libre Baskerville','Open Sans',Helvetica,sans-serif;margin-bottom:12px}#subnavbar ul ul{background:none}#subnavbar ul ul li{margin-top:4px}#subnavbar ul ul li.current{border:solid 1px #fff;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;background-image:url(/themes/wfr11/images/sideNavCurrent.png);-moz-box-shadow:0 0 5px #000;-webkit-box-shadow:0 0 5px #000;box-shadow:0 0 5px #000}#subnavbar ul ul li.current a,#subnavbar ul ul li.current a:hover{color:#F60}#subnavbar ul ul li a{color:#4e3715;text-decoration:none;display:block;font:13px/16px 'PT Sans',Arial,Helvetica,sans-serif;padding:0 0 0 15px}#subnavbar ul ul li a:hover{color:#22465F}#subnavbar ul ul li a.selected,#subnavbar ul ul li a.selected:hover{color:#343b32;color:#999;display:block;background-image:url(/themes/scl10/images/sidenavBG.jpg);background-repeat:repeat-y;background-position:left top}#subnavbar ul ul li.current ul{display:block}#subnavbar ul ul ul{display:none}#subnavbar ul ul ul li{margin-bottom:5px}#subnavbar ul ul ul li.current{margin-right:5px;margin-left:5px}#subnavbar ul ul ul li a{line-height:18px;font-size:14px;text-decoration:none;padding-left:25px;display:block;text-transform:none;font:16px/20px 'PT Sans',Arial,Helvetica,sans-serif}#subnavbar ul ul ul li a:hover{color:#22465F}#subnavbar ul ul ul li a.selected,#subnavbar ul ul ul li a.selected:hover{color:#333;display:block}a.zoomlink span.imgcaption{display:block;position:absolute;bottom:0;left:0;right:0;width:auto;padding:8px 25px 8px 6px;color:#fff;font:normal 13px/14px Arial,Helvetica,sans-serif;text-shadow:#000 0 0 2px;background:rgb(0 0 0 / .5);text-align:left!important;text-shadow:0 0 5px #000;opacity:1}a.zoomlink:hover span.imgcaption{background:rgb(0 0 0 / .75)}#fancybox-title-over{background:rgb(0 0 0 / .489);display:block;padding:10px}.fancybox-title-inside{text-align:left;background-color:#000;color:#fff;padding:5px 1px;text-indent:10px}#fancybox-outer{background-color:#424242!important;-moz-box-shadow:0 0 10px #000;-webkit-box-shadow:0 0 10px #000;box-shadow:0 0 10px #000}span.zoomicon{position:absolute;height:32px;width:32px;right:0;bottom:0;background:url(/themes/Salmon25/images/captions/zoom.webp) no-repeat center center;text-indent:-2000em!important;opacity:1;-webkit-transition:opacity .2s linear}a.zoomlink.video span.zoomicon{position:absolute;height:100%;width:100%;right:0;bottom:0;text-indent:-2000em!important;background:url(/themes/Salmon25/images/content/play.webp) no-repeat center center;display:block!important;opacity:.5}a.zoomlink:hover span.zoomicon,a.zoomlink:active span.zoomicon{display:block}.hamburger{padding:5px 5px 0 5px;display:inline-block;cursor:pointer;transition-property:opacity,filter;transition-duration:0.15s;transition-timing-function:linear;font:inherit;color:inherit;text-transform:none;background-color:#fff0;border:0;margin:0;overflow:visible}.hamburger:hover{opacity:.7}.hamburger-box{width:40px;height:24px;display:inline-block;position:relative}.hamburger-inner{display:block;top:50%;margin-top:-2px}.hamburger-inner,.hamburger-inner::before,.hamburger-inner::after{width:40px;height:4px;background-color:#fff;border-radius:4px;position:absolute;transition-property:transform;transition-duration:0.15s;transition-timing-function:ease}.hamburger-inner::before,.hamburger-inner::after{content:"";display:block}.hamburger-inner::before{top:-10px}.hamburger-inner::after{bottom:-10px}.hamburger--spring .hamburger-inner{top:2px;transition:background-color 0s 0.13s linear}.hamburger--spring .hamburger-inner::before{top:10px;transition:top 0.1s 0.2s cubic-bezier(.33333,.66667,.66667,1),transform 0.13s cubic-bezier(.55,.055,.675,.19)}.hamburger--spring .hamburger-inner::after{top:20px;transition:top 0.2s 0.2s cubic-bezier(.33333,.66667,.66667,1),transform 0.13s cubic-bezier(.55,.055,.675,.19)}.mm-wrapper_opening .hamburger--spring .hamburger-inner{transition-delay:0.22s;background-color:#fff0}.mm-wrapper_opening .hamburger--spring .hamburger-inner::before{top:0;transition:top 0.1s 0.15s cubic-bezier(.33333,0,.66667,.33333),transform 0.13s 0.22s cubic-bezier(.215,.61,.355,1);transform:translate3d(0,10px,0) rotate(45deg)}.mm-wrapper_opening .hamburger--spring .hamburger-inner::after{top:0;transition:top 0.2s cubic-bezier(.33333,0,.66667,.33333),transform 0.13s 0.22s cubic-bezier(.215,.61,.355,1);transform:translate3d(0,10px,0) rotate(-45deg)}:root{--mm-ocd-width:80%;--mm-ocd-min-width:200px;--mm-ocd-max-width:440px}body.mm-ocd-opened{overflow-y:hidden;-ms-scroll-chaining:none;overscroll-behavior:none}.mm-ocd{position:fixed;top:0;right:0;bottom:100%;left:0;z-index:9999;overflow:hidden;-ms-scroll-chaining:none;overscroll-behavior:contain;background:#fff0;-webkit-transition-property:bottom,background-color;-o-transition-property:bottom,background-color;transition-property:bottom,background-color;-webkit-transition-duration:0s,.3s;-o-transition-duration:0s,.3s;transition-duration:0s,.3s;-webkit-transition-timing-function:ease;-o-transition-timing-function:ease;transition-timing-function:ease;-webkit-transition-delay:.45s,.15s;-o-transition-delay:.45s,.15s;transition-delay:.45s,.15s}.mm-ocd--open{bottom:0;background:rgb(0 0 0 / .25);-webkit-transition-delay:0s;-o-transition-delay:0s;transition-delay:0s}.mm-ocd__content{position:absolute;top:0;bottom:0;z-index:2;width:var(--mm-ocd-width);min-width:var(--mm-ocd-min-width);max-width:var(--mm-ocd-max-width);background:#fff;-webkit-transition-property:-webkit-transform;transition-property:-webkit-transform;-o-transition-property:transform;transition-property:transform;transition-property:transform,-webkit-transform;-webkit-transition-duration:.3s;-o-transition-duration:.3s;transition-duration:.3s;-webkit-transition-timing-function:ease;-o-transition-timing-function:ease;transition-timing-function:ease}.mm-ocd--left .mm-ocd__content{left:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}.mm-ocd--right .mm-ocd__content{right:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}.mm-ocd--open .mm-ocd__content{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.mm-ocd__backdrop{position:absolute;top:0;bottom:0;z-index:3;width:clamp(calc(100% - var(--mm-ocd-max-width)),calc(100% - var(--mm-ocd-width)),calc(100% - var(--mm-ocd-min-width)));background:#fff0}.mm-ocd--left .mm-ocd__backdrop{right:0}.mm-ocd--right .mm-ocd__backdrop{left:0}.mm-spn,.mm-spn a,.mm-spn li,.mm-spn span,.mm-spn ul{display:block;padding:0;margin:0;-webkit-box-sizing:border-box;box-sizing:border-box}:root{--mm-spn-item-height:50px;--mm-spn-item-indent:20px;--mm-spn-line-height:24px;--mm-spn-panel-offset:30%}.mm-spn{width:100%;height:100%;-webkit-tap-highlight-color:#fff0;-webkit-overflow-scrolling:touch;overflow:hidden;-webkit-clip-path:inset(0 0 0 0);clip-path:inset(0 0 0 0);-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}.mm-spn ul{-webkit-overflow-scrolling:touch;position:fixed;top:0;left:100%;bottom:0;z-index:2;width:calc(100% + var(--mm-spn-panel-offset));padding-right:var(--mm-spn-panel-offset);line-height:var(--mm-spn-line-height);overflow:visible;overflow-y:auto;background:inherit;-webkit-transition:left .3s ease 0s;-o-transition:left .3s ease 0s;transition:left .3s ease 0s;cursor:default}.mm-spn ul:after{content:"";display:block;height:var(--mm-spn-item-height)}.mm-spn>ul{left:0}.mm-spn ul.mm-spn--open{left:0}.mm-spn ul.mm-spn--parent{left:calc(-1 * var(--mm-spn-panel-offset));overflow:visible}.mm-spn li{position:relative;background:inherit;cursor:pointer}.mm-spn li:before{content:"";display:block;position:absolute;top:calc(var(--mm-spn-item-height)/ 2);right:calc(var(--mm-spn-item-height)/ 2);z-index:0;width:10px;height:10px;border-top:2px solid;border-right:2px solid;-webkit-transform:rotate(45deg) translate(0,-50%);-ms-transform:rotate(45deg) translate(0,-50%);transform:rotate(45deg) translate(0,-50%);opacity:.4}.mm-spn li:after{content:"";display:block;margin-left:var(--mm-spn-item-indent);border-top:1px solid;opacity:.15}.mm-spn a,.mm-spn span{position:relative;z-index:1;padding:calc((var(--mm-spn-item-height) - var(--mm-spn-line-height))/ 2) var(--mm-spn-item-indent)}.mm-spn a{background:inherit;color:inherit;text-decoration:none}.mm-spn a:not(:last-child){width:calc(100% - var(--mm-spn-item-height))}.mm-spn a:not(:last-child):after{content:"";display:block;position:absolute;top:0;right:0;bottom:0;border-right:1px solid;opacity:.15}.mm-spn span{background:0 0}.mm-spn.mm-spn--navbar{cursor:pointer}.mm-spn.mm-spn--navbar:before{content:"";display:block;position:absolute;top:calc(var(--mm-spn-item-height)/ 2);left:var(--mm-spn-item-indent);width:10px;height:10px;margin-top:2px;border-top:2px solid;border-left:2px solid;-webkit-transform:rotate(-45deg) translate(50%,-50%);-ms-transform:rotate(-45deg) translate(50%,-50%);transform:rotate(-45deg) translate(50%,-50%);opacity:.4}.mm-spn.mm-spn--navbar.mm-spn--main{cursor:default}.mm-spn.mm-spn--navbar.mm-spn--main:before{content:none;display:none}.mm-spn.mm-spn--navbar:after{content:attr(data-mm-spn-title);display:block;position:absolute;top:0;left:0;right:0;height:var(--mm-spn-item-height);padding:0 calc(var(--mm-spn-item-indent) * 2);line-height:var(--mm-spn-item-height);opacity:.4;text-align:center;overflow:hidden;white-space:nowrap;-o-text-overflow:ellipsis;text-overflow:ellipsis}.mm-spn.mm-spn--navbar.mm-spn--main:after{padding-left:var(--mm-spn-item-indent)}.mm-spn.mm-spn--navbar ul{top:calc(var(--mm-spn-item-height) + 1px)}.mm-spn.mm-spn--navbar ul:before{content:"";display:block;position:fixed;top:inherit;z-index:2;width:100%;border-top:1px solid currentColor;opacity:.15}.mm-spn.mm-spn--light{color:#444;background:#f3f3f3}.mm-spn.mm-spn--dark{color:#ddd;background:#333}.mm-spn.mm-spn--vertical{overflow-y:auto}.mm-spn.mm-spn--vertical ul{width:100%;padding-right:0;position:static}.mm-spn.mm-spn--vertical ul ul{display:none;padding-left:var(--mm-spn-item-indent)}.mm-spn.mm-spn--vertical ul ul:after{height:calc(var(--mm-spn-item-height)/ 2)}.mm-spn.mm-spn--vertical ul.mm-spn--open{display:block}.mm-spn.mm-spn--vertical li.mm-spn--open:before{-webkit-transform:rotate(135deg) translate(-50%,0);-ms-transform:rotate(135deg) translate(-50%,0);transform:rotate(135deg) translate(-50%,0)}.mm-spn.mm-spn--vertical ul ul li:last-child:after{content:none;display:none}.mm-spn.mm-spn--dark{color:rgb(233 216 186 / .8);background:rgb(32 32 32)}.mm-spn.mm-spn--navbar::after{opacity:.7;font-weight:700}.mm-ocd--open{background:rgb(0 0 0 / .5)}.splide__container{box-sizing:border-box;position:relative}.splide__list{backface-visibility:hidden;display:-ms-flexbox;display:flex!important;height:100%;margin:0!important;padding:0!important}.splide.is-initialized:not(.is-active) .splide__list{display:block}.splide__pagination{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-pack:center;justify-content:center;margin:0;pointer-events:none}.splide__pagination li{display:inline-block;line-height:1;list-style-type:none;margin:0;pointer-events:auto}.splide:not(.is-overflow) .splide__pagination{display:none}.splide__progress__bar{width:0}.splide{position:relative;visibility:hidden}.splide.is-initialized,.splide.is-rendered{visibility:visible}.splide__slide{backface-visibility:hidden;box-sizing:border-box;-ms-flex-negative:0;flex-shrink:0;list-style-type:none!important;margin:0;position:relative}.splide__slide img{vertical-align:bottom}.splide__spinner{animation:splide-loading 1s linear infinite;border:2px solid #999;border-left-color:#fff0;border-radius:50%;bottom:0;contain:strict;display:inline-block;height:20px;left:0;margin:auto;position:absolute;right:0;top:0;width:20px}.splide__sr{clip:rect(0 0 0 0);border:0;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.splide__toggle.is-active .splide__toggle__play,.splide__toggle__pause{display:none}.splide__toggle.is-active .splide__toggle__pause{display:inline}.splide__track{overflow:hidden;position:relative;z-index:0}@keyframes splide-loading{0%{transform:rotate(0)}to{transform:rotate(1turn)}}.splide__track--draggable{-webkit-touch-callout:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.splide__track--fade>.splide__list>.splide__slide{margin:0!important;opacity:0;z-index:0}.splide__track--fade>.splide__list>.splide__slide.is-active{opacity:1;z-index:1}.splide--rtl{direction:rtl}.splide__track--ttb>.splide__list{display:block}.splide__arrow{-ms-flex-align:center;align-items:center;background:#ccc;border:0;border-radius:50%;cursor:pointer;display:-ms-flexbox;display:flex;height:2em;-ms-flex-pack:center;justify-content:center;opacity:.7;padding:0;position:absolute;top:50%;transform:translateY(-50%);width:2em;z-index:1}.splide__arrow svg{fill:#000;height:1.2em;width:1.2em}.splide__arrow:hover:not(:disabled){opacity:.9}.splide__arrow:disabled{opacity:.3}.splide__arrow:focus-visible{outline:3px solid #0bf;outline-offset:3px}.splide__arrow--prev{left:1em}.splide__arrow--prev svg{transform:scaleX(-1)}.splide__arrow--next{right:1em}.splide.is-focus-in .splide__arrow:focus{outline:3px solid #0bf;outline-offset:3px}.splide__pagination{bottom:.5em;left:0;padding:0 1em;position:absolute;right:0;z-index:1}.splide__pagination__page{background:#ccc;border:0;border-radius:50%;display:inline-block;height:8px;margin:3px;opacity:.7;padding:0;position:relative;transition:transform .2s linear;width:8px}.splide__pagination__page.is-active{background:#fff;transform:scale(1.4);z-index:1}.splide__pagination__page:hover{cursor:pointer;opacity:.9}.splide__pagination__page:focus-visible{outline:3px solid #0bf;outline-offset:3px}.splide.is-focus-in .splide__pagination__page:focus{outline:3px solid #0bf;outline-offset:3px}.splide__progress__bar{background:#ccc;height:3px}.splide__slide{-webkit-tap-highlight-color:#fff0}.splide__slide:focus{outline:0}@supports(outline-offset:-3px){.splide__slide:focus-visible{outline:3px solid #0bf;outline-offset:-3px}}@media screen and (-ms-high-contrast:none){.splide__slide:focus-visible{border:3px solid #0bf}}@supports(outline-offset:-3px){.splide.is-focus-in .splide__slide:focus{outline:3px solid #0bf;outline-offset:-3px}}@media screen and (-ms-high-contrast:none){.splide.is-focus-in .splide__slide:focus{border:3px solid #0bf}.splide.is-focus-in .splide__track>.splide__list>.splide__slide:focus{border-color:#0bf}}.splide__toggle{cursor:pointer}.splide__toggle:focus-visible{outline:3px solid #0bf;outline-offset:3px}.splide.is-focus-in .splide__toggle:focus{outline:3px solid #0bf;outline-offset:3px}.splide__track--nav>.splide__list>.splide__slide{border:3px solid #fff0;cursor:pointer}.splide__track--nav>.splide__list>.splide__slide.is-active{border:3px solid #000}.splide__arrows--rtl .splide__arrow--prev{left:auto;right:1em}.splide__arrows--rtl .splide__arrow--prev svg{transform:scaleX(1)}.splide__arrows--rtl .splide__arrow--next{left:1em;right:auto}.splide__arrows--rtl .splide__arrow--next svg{transform:scaleX(-1)}.splide__arrows--ttb .splide__arrow{left:50%;transform:translate(-50%)}.splide__arrows--ttb .splide__arrow--prev{top:1em}.splide__arrows--ttb .splide__arrow--prev svg{transform:rotate(-90deg)}.splide__arrows--ttb .splide__arrow--next{bottom:1em;top:auto}.splide__arrows--ttb .splide__arrow--next svg{transform:rotate(90deg)}.splide__pagination--ttb{bottom:0;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;left:auto;padding:1em 0;right:.5em;top:0}body{background:#ececec;height:100%;color:#5e5e5e;font:400 17px/30px "Open Sans",Helvetica,sans-serif}.width{width:100%;max-width:1200px;height:100%;margin:0 auto;position:relative;box-sizing:border-box}#container{overflow:hidden;width:100%;padding-top:90px}#page{position:relative;padding:0 15px}#top{height:78px;position:relative;width:100%;background-color:rgb(255 255 255)}a{color:#fff}#logo{position:absolute;display:block;text-indent:-2000em;bottom:-40px;left:15px;width:230px;height:130px;background:#fff url(/themes/Salmon25/images/layout/Logo.svg) center top no-repeat;box-shadow:0 3px 8px 3px rgb(0 0 0 / .5);transition:all 0.5s ease;border-bottom:solid 5px #fff}#topspacer{height:48px}#topNav{background-color:#23354b;z-index:510;height:90px;position:absolute;top:0;left:0;width:100%;box-shadow:0 4px 2px 2px rgb(0 0 0 / .1);border-bottom:1px solid rgb(255 255 255 / .2)}.sticky #topNav{position:fixed;top:-40px}.sticky #logo{background:#fff0 url(/themes/Salmon25/images/layout/logoSmall.svg) center top no-repeat;box-shadow:0 0 0 0 #fff0;background-size:contain;width:160px;height:80px;bottom:-22px;border-bottom:0}.sticky #mainnav{left:200px}#topNav .social{border:1px solid rgb(255 255 255 / .51);border-top:none;background-color:rgb(0 0 0 / .32);float:right;height:40px;margin-right:15px;margin-top:0;position:relative;width:285px;box-sizing:border-box}.social .phone{color:#fff;font:normal 17px/22px 'PT Sans',Times,Helvetica,sans-serif;text-align:center;position:relative;top:10px;max-width:45%}.social a.button{margin:2px 0;font:700 16px/48px 'Lato',Arial,Helvetica,sans-serif;display:inline-block;padding:0 50px 0 20px;text-decoration:none!important;background:#5aacd7 url(/themes/Salmon25/images/content/linkarrow.png) no-repeat right 50%;height:48px;overflow:hidden;border-style:none!important;color:#FFF;white-space:nowrap;text-overflow:ellipsis}.social a.button{position:absolute;top:4px;right:5px;font:700 14px/28px 'Lato',Arial,Helvetica,sans-serif;height:28px;background-size:auto 100%;padding:0 35px 0 10px}.social ul,.social ul li{list-style:none;margin:0;padding:0}.social ul{width:100%;position:absolute;text-align:center;max-width:50%;right:2px;top:3px}.social ul li{margin:0 2px;display:inline}.social ul li a{display:inline-block;width:24px;height:24px;border-radius:3px;border:1px solid #fff0;text-align:center;line-height:24px!important;font-size:14px;color:#ccc;font-weight:700;transition:transform .2s ease-in-out,color .2s ease-in-out,background-color .2s ease-in-out}.social ul li a.facebook{background-color:#3b5999}.social ul li a.twitter{background-color:#4099FF}.social ul li a.instagram{background-color:#3f729b}.social ul li a.googlePlus{background-color:#dd4c39}.social ul li a.pinterest{background-color:#C92228}.social ul li a:hover{color:#fff;border:1px solid #69f;transform:scale(1.1);box-shadow:0 0 10px rgb(0 0 0 / .1)}#contact{float:right;width:auto;padding:15px 15px 0 5px}#contact ul,#contact ul li{list-style:none;margin:0;padding:0}#contact ul li i.fa{font-size:20px;width:40px;height:22px;text-align:center;display:inline-block;color:#ccc;transform:scale(1.1)}#contact ul li i.fa-mobile{font-size:24px!important;transform:scale(1.3)}#contact ul li a{display:inline-block;text-decoration:none;color:#69f;font:700 normal 18px/24px 'Open Sans',Helvetica,sans-serif;transition:transform .2s ease-in-out,color .2s ease-in-out;transform-origin:center left}#contact ul li a.email{font:700 normal 16px/24px 'Open Sans',Helvetica,sans-serif}#contact ul li a:hover{color:#69f;transform:scale(1.05)}header{position:relative;overflow:hidden;background:#aeccff;width:100%}#banner-rotator,header #stage{width:100vw}header #banner-rotator{width:100vw;height:100%}#banner-rotator-track,#banner-rotator-list{height:100%}header .swiper-container,header .swiper-slide{width:100vw}header .splide__slide{display:flex!important;align-items:center!important;justify-content:center!important;height:100%!important}header .splide__slide img{object-fit:cover;width:100%!important;height:100%!important}#main{position:relative;padding:10px 0 20px}#content{position:relative;width:100%;margin:0;padding:50px 0 0 0;min-height:500px;box-sizing:border-box;max-width:1170px}#page.pinned #sidebar{position:fixed;top:100px}#page.pinned #sidebar.pinned{top:auto;position:absolute;bottom:30px}#mainnav{position:absolute;bottom:5px;left:255px;width:auto;right:0;height:40px;transition:left 0.5s ease}footer{width:100%;height:430px;position:relative;z-index:10;font:normal 15px/30px 'Open Sans',Arial,Helvetica,sans-serif;padding:0;color:#969595;border-top:10px solid #5aabd6;background-color:#23354b;box-sizing:border-box;padding-bottom:70px}footer .width{box-sizing:border-box;height:auto}footer .inner{margin:0 auto;position:relative;width:100%;max-width:1200px;height:100%}#finfo{position:absolute;top:40px;left:0;width:230px}#flogo{position:absolute;display:block;text-indent:-2000em;left:15px;width:220px;height:125px;background:#fff url(/themes/Salmon25/images/layout/Logo.svg) center top no-repeat;transition:all 0.5s ease;border:5px solid #fff}#footnav{position:absolute;right:10px;top:40px;width:100%;max-width:870px}#contactinfo{position:absolute;color:#23354b;left:0;width:100%;text-align:center;bottom:0;height:70px;font:normal 15px/70px 'Open Sans',Arial,Helvetica,sans-serif;background-color:#fff}#contactinfo a{display:inline-block;text-decoration:none;color:#69f;transition:transform .2s ease-in-out,color .2s ease-in-out;transform-origin:center left}#contactinfo a:hover{color:#69f;transform:scale(1.05)}footer #incontrol{text-align:right;position:absolute;height:auto;width:auto;right:15px;bottom:0;color:#f5f5f5;font:normal 10px/24px 'Open Sans',Arial,Helvetica,sans-serif;opacity:1;transition:all .3s}.sticky footer #incontrol{opacity:.1}footer #incontrol:hover{opacity:.5}footer #incontrol a{color:#e2eeff;text-decoration:none}footer #incontrol a .highlight{color:#e2eeff;text-decoration:none}footer #incontrol a:hover{color:#fff}#newsArchiveList{margin-right:-30px}.newsArchive{width:270px;height:auto;float:left;margin:0 30px 30px 0;background-color:#fff;box-shadow:0 0 5px rgb(0 0 0 / .3);-webkit-transition:transform .3s ease-in-out,background-color .3s ease-in-out;-moz-transition:transform .3s ease-in-out,background-color .3s ease-in-out;-o-transition:transform .3s ease-in-out,background-color .3s ease-in-out;transition:transform .3s ease-in-out,background-color .3s ease-in-out}#content .newsArchive a,#content .newsArchive a:visited{color:#000;line-height:0;display:block;text-decoration:none}#content .newsArchive a img{width:100%!important;box-shadow:none;margin:0}#content .newsArchive a>div{padding:0 10px 10px 10px;font:400 12px/16px 'Lato',Helvetica,sans-serif}#content .newsArchive a:hover{text-decoration:none!important;color:inherit!important}#content .newsArchive a>div .date{background-color:#dadada;color:#333;font:700 12px/22px 'Lato',Helvetica,sans-serif;padding:0 0 0 10px;margin:0 -10px}#content .newsArchive a>div .title{font:normal 600 14px/18px 'Lato',Helvetica,sans-serif;display:block;text-align:left!important;margin:5px 0 8px;color:#782104}#content .newsArchive:hover{-ms-transform:rotate(0deg)!important;-webkit-transform:rotate(0deg)!important;transform:rotate(0deg) scale(1.1)!important}.navicon{border-bottom:5px solid #FFF;border-top:16px double #FFF;display:none;font-size:0;height:6px;margin:10px;width:34px}#content img{height:auto!important}#content img.centered{width:100%;height:auto}#content .grid img{height:auto!important}a.zoomlink.img,a.zoomlink.youtube{height:auto!important}a.zoomlink.img img,a.zoomlink.youtube img{width:100%!important;height:auto!important}.width,#ADVList{-webkit-transition:max-width .2s;transition:max-width .2s}#FullSlider .slide{-webkit-transition:top .2s;transition:top .2s!important;top:0}#navbar .width{max-width:100%}@media only screen and (min-width:100px) and (max-width:1200px){.width,#xxcontent table.grid{max-width:900px}#main{padding:10px 10px 20px}footer .width{max-width:100%}#flogo{display:none}.royalCaption{top:10%!important}#sidebar{display:none!important}ul.mainNav>li a{font:14px/40px "Lato",Times,Helvetica,sans-serif;padding:0 14px}.navimg{display:none}ul.mainNav ul{padding:110px 10px 40px 10px}.navdesc{margin-right:20px}}@media only screen and (min-width:100px) and (max-width:900px){.width{}#ADVFilters a span.sel{width:60px;margin-left:10px}#ADVFilters a{padding-right:20px}#top .width{max-width:100%}#top .social{display:none}#container{padding-top:45px}#topNav,#topspacer{display:none}#navbar{z-index:1500;position:fixed;top:0;-webkit-box-shadow:0 0 10px rgb(50 50 50 / .95);-moz-box-shadow:0 0 10px rgb(50 50 50 / .95);box-shadow:0 0 10px rgb(50 50 50 / .95);height:45px;width:100%;background:#333}#footnav{margin:10px;width:auto;top:10px;left:10px;right:10px;width:auto}#footnav ul li{float:none;width:100%}#footnav a{white-space:nowrap;text-align:center;padding:10px!important;display:block}#footnav ul li ul{display:none}footer #contactinfo{font-size:13px;line-height:18px;padding:10px 10px 0;width:auto;position:relative}footer #incontrol{font-size:10px;line-height:14px}footer #incontrol a{display:block}.navicon{display:block}#content div.even.testimony{display:none}#content div.odd.testimony{width:auto;float:none;clear:both;margin-right:5%;margin-left:5%}form.simple div.fieldwrapper{width:97%}form.simple div.fieldwrapper label.styled{width:70px}form.simple div.fieldwrapper div.thefield{margin-left:80px!important;margin-right:0px!important;box-sizing:border-box}form.simple div.fieldwrapper div.thefield input.text{width:100%!important}}@media only screen and (max-width:600px){.width,#xxcontent table.grid{}#contact{display:none}body #content h1{font:400 32px/40px "Libre Baskerville","Times New Roman",Times,serif;margin:5px 0 10px}#ADVFilters a span.sel{width:30px;text-indent:-2000em;display:none}#content #ADVList{width:270px;margin:0 auto}#content a.infobox{width:90%;margin:0 auto 30px;padding-bottom:30px!important;border-bottom:1px solid rgb(0 0 0 / .1);float:none}#page #content table.table_basic thead tr td{font:700 10px/14px "Libre Baskerville","Times New Roman",Times,serif!important}#content .table_basic tr td h3{font:700 10px/14px "Libre Baskerville","Times New Roman",Times,serif!important}#content .table_basic tr td{font-size:10px;line-height:16px}table.grid.stack>tbody>tr>td{display:block;width:100%!important;margin-bottom:24px}table.grid.stack>tbody>tr>td:last-child{margin-bottom:0}table.grid.stack>tbody>tr>td.gutter,table.grid16.stack>tbody>tr>td.gutter1-16,table.grid16.stack>tbody>tr>td.noMobile{display:none}}
+		</style>
+<br />
+<b>Warning</b>:  Undefined array key "sec_publish" in <b>/home/salmoneye/public_html/webmasterCMS/functions/functions.php</b> on line <b>2000</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "pg_sitemapxml" in <b>/home/salmoneye/public_html/webmasterCMS/functions/functions.php</b> on line <b>2000</b><br />
+		
+		<!-- Google tag (gtag.js) - Google Analytics 4 -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-FF1L9FXMMW"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-FF1L9FXMMW');
+		</script>
+				<br />
+<b>Warning</b>:  Undefined array key "pg_inline_code_head" in <b>/home/salmoneye/public_html/webmasterCMS/functions/functions.php</b> on line <b>2125</b><br />
+	
+	<script type="application/ld+json">
+	{
+	  "@context": "http://schema.org",
+	  "@type": "LodgingBusiness",
+	  "name": "Salmon Eye Charters",
+	  "url": "https://www.salmoneye.net/",
+	  "sameAs": [
+		"https://www.facebook.com/salmoneyefishing",
+		"https://www.instagram.com/salmoneyecharters",
+		"https://www.youtube.com/user/SalmonEyeFishing",
+		"https://www.pinterest.com/salmoneyecharters/",
+		"https://twitter.com/GoSalmonFishing",
+		"https://www.google.com/maps/place/Salmon+Eye+Charters/@48.9452851,-125.553407,1348m/data=!3m2!1e3!4b1!4m6!3m5!1s0x5489739700b5db01:0x6117b69131d71884!8m2!3d48.9452851!4d-125.553407"
+	  ],
+	  "address": {
+		"@type": "PostalAddress",
+		"streetAddress": "160 Hemlock Street",
+		"addressLocality": "Ucluelet",
+		"addressRegion": "BC",
+		"postalCode": "V0R 3A0",
+		"addressCountry": "Canada"
+	  },
+	  "location": {
+		"@type": "Place",
+		"name": "Salmon Eye Charters",
+		"geo": {
+		  "@type": "GeoCoordinates",
+		  "latitude": 48.9452851,
+		  "longitude": -125.553407
+		},
+		"address": {
+		  "@type": "PostalAddress",
+		  "addressLocality": "Ucluelet",
+		  "addressRegion": "BC",
+		  "addressCountry": "Canada"
+		}
+	  },
+	  "contactPoint": {
+		"@type": "ContactPoint",
+		"telephone": "+1-250-244-1821",
+		"email": "fishing@salmoneye.net",
+		"contactType": "Reservations",
+		"availableLanguage": "English"
+	  },
+	  "priceRange": "$$$",
+	  "openingHours": "Mo-Su 08:00-20:00"
+	}
+	</script>
+
+
+
+
+	<!-- Meta Pixel Code -->
+	<!-- <script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t,s)}(window, document,'script',
+	'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '1286285612670255');
+	fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=1286285612670255&ev=PageView&noscript=1"
+	/></noscript> -->
+	<!-- End Meta Pixel Code -->
+	
+	
+	<script type="text/javascript">
+		var navstuff= {"6":{"listItemID":"6","listID":"2","listItemOrder":"0","listItemPublish":"yes","listItemFeature":"no","listItemF1":"Fishing Packages","listItemF2":"Our fishing packages are built to make your vacation easy to book and similar to what you would get at a fishing resort in BC or Alaska","listItemF3":"\/media_originals\/images\/fishing\/latestfishingreports.jpg","listItemF4":"6","listItemF5":"","listItemF6":"","listItemF7":"","listItemF8":"","listItemF9":"","listItemF10":"","listItemF11":"","listItemF12":"","listItemF13":"","listItemF14":"","listItemF15":"","listItemF16":"","listItemF17":"","listItemF18":"","listItemF19":"","listItemF20":"","listItemF21":"","listItemF22":"","listItemF23":"","listItemF24":"","listItemF25":"","listItemF26":"","listItemF27":"","listItemF28":"","listItemF29":"","listItemF30":"","listItemF31":"","listItemF32":"","preview":"\/\/d1df05ro02w73n.cloudfront.net\/media2\/images\/crop_400_320\/fishing\/latestfishingreports.jpg"},"11":{"listItemID":"7","listID":"2","listItemOrder":"0","listItemPublish":"yes","listItemFeature":"no","listItemF1":"Fishing With Salmon Eye Charters","listItemF2":"At Salmon Eye Charters we are committed to giving you the best vacation possible. We want you to feel at home away from home. ","listItemF3":"\/media_originals\/images\/menu\/fishingwithus.jpg","listItemF4":"11","listItemF5":"","listItemF6":"","listItemF7":"","listItemF8":"","listItemF9":"","listItemF10":"","listItemF11":"","listItemF12":"","listItemF13":"","listItemF14":"","listItemF15":"","listItemF16":"","listItemF17":"","listItemF18":"","listItemF19":"","listItemF20":"","listItemF21":"","listItemF22":"","listItemF23":"","listItemF24":"","listItemF25":"","listItemF26":"","listItemF27":"","listItemF28":"","listItemF29":"","listItemF30":"","listItemF31":"","listItemF32":"","preview":"\/\/d1df05ro02w73n.cloudfront.net\/media2\/images\/crop_400_320\/menu\/fishingwithus.jpg"},"3":{"listItemID":"8","listID":"2","listItemOrder":"0","listItemPublish":"yes","listItemFeature":"no","listItemF1":"Your Experience","listItemF2":"A few days on the water, fish on your line, the best salmon fishing in the world, one of the most majestic place on earth, and 50 lbs a day guaranteed!","listItemF3":"\/media_originals\/images\/menu\/yourexperience2.jpg","listItemF4":"3","listItemF5":"","listItemF6":"","listItemF7":"","listItemF8":"","listItemF9":"","listItemF10":"","listItemF11":"","listItemF12":"","listItemF13":"","listItemF14":"","listItemF15":"","listItemF16":"","listItemF17":"","listItemF18":"","listItemF19":"","listItemF20":"","listItemF21":"","listItemF22":"","listItemF23":"","listItemF24":"","listItemF25":"","listItemF26":"","listItemF27":"","listItemF28":"","listItemF29":"","listItemF30":"","listItemF31":"","listItemF32":"","preview":"\/\/d1df05ro02w73n.cloudfront.net\/media2\/images\/crop_400_320\/menu\/yourexperience2.jpg"},"4":{"listItemID":"9","listID":"2","listItemOrder":"0","listItemPublish":"yes","listItemFeature":"no","listItemF1":"Planning your trip","listItemF2":"Vancouver Island is one of the top vacation destinations in North America and you need to experience salmon & halibut fishing here!","listItemF3":"\/media_originals\/images\/menu\/planyourtrip.jpg","listItemF4":"4","listItemF5":"","listItemF6":"","listItemF7":"","listItemF8":"","listItemF9":"","listItemF10":"","listItemF11":"","listItemF12":"","listItemF13":"","listItemF14":"","listItemF15":"","listItemF16":"","listItemF17":"","listItemF18":"","listItemF19":"","listItemF20":"","listItemF21":"","listItemF22":"","listItemF23":"","listItemF24":"","listItemF25":"","listItemF26":"","listItemF27":"","listItemF28":"","listItemF29":"","listItemF30":"","listItemF31":"","listItemF32":"","preview":"\/\/d1df05ro02w73n.cloudfront.net\/media2\/images\/crop_400_320\/menu\/planyourtrip.jpg"},"12":{"listItemID":"46","listID":"2","listItemOrder":"0","listItemPublish":"yes","listItemFeature":"no","listItemF1":"Contact","listItemF2":"We welcome any questions and would love to have you come fishing with us!","listItemF3":"\/media_originals\/images\/scenics\/img-0530-edited.jpg","listItemF4":"12","listItemF5":"","listItemF6":"","listItemF7":"","listItemF8":"","listItemF9":"","listItemF10":"","listItemF11":"","listItemF12":"","listItemF13":"","listItemF14":"","listItemF15":"","listItemF16":"","listItemF17":"","listItemF18":"","listItemF19":"","listItemF20":"","listItemF21":"","listItemF22":"","listItemF23":"","listItemF24":"","listItemF25":"","listItemF26":"","listItemF27":"","listItemF28":"","listItemF29":"","listItemF30":"","listItemF31":"","listItemF32":"","preview":"\/\/d1df05ro02w73n.cloudfront.net\/media2\/images\/crop_400_320\/scenics\/img-0530-edited.jpg"},"18":{"listItemID":"47","listID":"2","listItemOrder":"0","listItemPublish":"yes","listItemFeature":"no","listItemF1":"Salmon Eye Blog Posts","listItemF2":"Keep Up to Date with all thats happening at Salmon Eye and BC Fishing","listItemF3":"\/media_originals\/images\/scenics\/do8r0119.jpg","listItemF4":"18","listItemF5":"","listItemF6":"","listItemF7":"","listItemF8":"","listItemF9":"","listItemF10":"","listItemF11":"","listItemF12":"","listItemF13":"","listItemF14":"","listItemF15":"","listItemF16":"","listItemF17":"","listItemF18":"","listItemF19":"","listItemF20":"","listItemF21":"","listItemF22":"","listItemF23":"","listItemF24":"","listItemF25":"","listItemF26":"","listItemF27":"","listItemF28":"","listItemF29":"","listItemF30":"","listItemF31":"","listItemF32":"","preview":"\/\/d1df05ro02w73n.cloudfront.net\/media2\/images\/crop_400_320\/scenics\/do8r0119.jpg"}};
+	</script>
+	
+	<link rel="icon" type="image/png" href="/fav/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/fav/favicon.svg" />
+	<link rel="shortcut icon" href="/fav/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon.png" />
+	<link rel="manifest" href="/fav/site.webmanifest" />
+	
+	
+	<!-- <link rel="preconnect" href="https://analytics.google.com">
+	<link rel="preconnect" href="https://www.google-analytics.com">
+	<link rel="preconnect" href="https://stats.g.doubleclick.net">
+	<link rel="preconnect" href="https://www.googletagmanager.com"> -->
+	<link rel="preconnect" href="https://www.salmoneye.net" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+
+	<style>
+	  #banner-rotator-track, #banner-rotator-list, #banner-rotator-slide01 img {
+		display: block;
+		width: 100%;
+		height: auto;
+	  }
+	</style>
+	
+	
+</head>
+
+<body class=""> 
+<div id="navbar" class="mm-fixed-top">
+	<div class="width">
+		<a class="navicon"  href="#mobilem" ></a>
+	</div>
+</div>
+
+	<div id="container">
+
+
+		<header>
+						
+		</header>
+		
+		
+		<div id="page" class="width">	
+			<div id="main" class="clearfix png">
+				<br />
+<b>Warning</b>:  Undefined array key "sub_theme" in <b>/home/salmoneye/public_html/webmasterCMS/functions/functions.php</b> on line <b>1465</b><br />
+Error: Could not locate Subtheme file<br />/home/salmoneye/public_html/themes/Salmon25/sub_themes//subtheme.inc.php<pre>Array
+(
+    [pg_ssfolder] => default
+    [pg_sharedcontent] => section
+    [sec_subtemplate] => normal
+    [site_default_theme] => Salmon25
+    [pg_text1_blob] => [cc1]
+    [hero-style] => none
+    [hero-image] => 
+    [hero-video] => 
+    [hero-headers] => 
+    [hero-imageset] => Array
+        (
+        )
+
+    [hero-preload] => 
+)
+</pre>			</div>
+		</div>
+		
+
+
+		<div id="topNav">
+
+
+
+
+
+
+
+			<div class="width">
+				<a id="logo" href="/"  class="png" aria-label="Salmon Eye Fishing Charters">Salmon Eye Fishing Charters</a>
+				
+				<nav id="mainnav">
+					<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+
+  <ul class="mainNav" id="mainNavRoot" >
+        <li class="first sec_1"><a href="/" >Home</a>
+        </li>
+        <li class="sec_6 parent"><a href="/fishing-packages.html" class="parent" >Fishing Packages</a>
+            <ul>
+                <li  class="first"><a href="/fishing-packages/day-trips.html">Day Trips</a>
+                </li>
+                <li ><a href="/fishing-packages/signature-package.html">Signature Package</a>
+                </li>
+                <li ><a href="/fishing-packages/gold-fishing-package.html">Gold Fishing Package</a>
+                </li>
+                <li ><a href="/fishing-packages/silver-fishing-package.html">Silver Fishing Package</a>
+                </li>
+                <li ><a href="/fishing-packages/trophy-fishing-package.html">Trophy Fishing Package</a>
+                </li>
+                <li ><a href="/fishing-packages/basic-package.html">Basic Package</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sec_11 parent"><a href="/fishing-with-us.html" class="parent" >Fishing With Us</a>
+            <ul>
+                <li  class="first"><a href="/fishing-with-us/fishing-ucluelet.html">Fishing Ucluelet</a>
+                </li>
+                <li ><a href="/fishing-with-us/fishing-guides.html">Fishing Guides</a>
+                </li>
+                <li ><a href="/fishing-with-us/our-boats.html">Our Boats</a>
+                </li>
+                <li ><a href="/fishing-with-us/about-salmon-and-halibut.html">About Salmon and Halibut</a>
+                </li>
+                <li ><a href="/fishing-with-us/ucluelet-fishing-vs-alaska.html">Ucluelet Fishing vs Alaska</a>
+                </li>
+                <li ><a href="/fishing-with-us/fishing-resorts-comparison.html">Fishing Resorts Comparison</a>
+                </li>
+                <li ><a href="/fishing-with-us/fishing-reports.html">Fishing Reports</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sec_3 parent"><a href="/your-experience.html" class="parent" >Your Experience</a>
+            <ul>
+                <li  class="first"><a href="/your-experience/video-gallery.html">Video Gallery</a>
+                </li>
+                <li ><a href="/your-experience/photo-gallery.html">Photo Gallery</a>
+                </li>
+                <li ><a href="/your-experience/your-guarantee.html">Your Guarantee</a>
+                </li>
+                <li ><a href="/your-experience/top-8-questions.html">Top 8 Questions</a>
+                </li>
+                <li ><a href="/your-experience/client-testimonials.html">Client Testimonials</a>
+                </li>
+                <li ><a href="/your-experience/client-stories.html">Client Stories</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sec_4 parent"><a href="/plan-your-trip.html" class="parent" >Plan Your Trip</a>
+            <ul>
+                <li  class="first"><a href="/plan-your-trip/getting-here.html">Getting Here</a>
+                </li>
+                <li ><a href="/plan-your-trip/travel-information.html">Travel Information</a>
+                </li>
+                <li ><a href="/plan-your-trip/best-fime-to-fish.html">Best time to fish Ucluelet </a>
+                </li>
+                <li ><a href="/plan-your-trip/salmon-and-halibut-recipes.html">Salmon and Halibut Recipes</a>
+                </li>
+                <li ><a href="/plan-your-trip/about-vancouver-island.html">About Vancouver Island</a>
+                </li>
+                <li ><a href="/plan-your-trip/bc-fishing-license.html">BC Fishing License</a>
+                </li>
+                <li ><a href="/plan-your-trip/accommodations.html">Accommodations</a>
+                </li>
+                <li ><a href="/plan-your-trip/fishing-faqs.html">Fishing FAQ&#039;s</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sec_18 parent"><a href="/our-blog.html" class="parent" >Our Blog</a>
+            <ul>
+                <li  class="first"><a href="/our-blog/enhancement.html">Enhancement</a>
+                </li>
+                <li ><a href="/our-blog/fishing-reports.html">Fishing Reports</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sec_12 parent"><a href="/contact-us.html" class="parent" >Contact Us</a>
+            <ul>
+                <li  class="first"><a href="/contact-us/links.html">Links</a>
+                </li>
+            </ul>
+        </li>
+</ul>
+				</nav>
+			
+			
+				<div class="social">
+					<div class="phone">1 877 777 4344</div>
+					<!-- <ul>
+						<li><a href="https://twitter.com/GoSalmonFishing" target="_blank" class="twitter" aria-label="twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.facebook.com/salmoneyefishing"  target="_blank" class="facebook" aria-label="facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.instagram.com/salmoneyecharters/"  target="_blank"  class="instagram" aria-label="Instagram"><i class="fa fa-instagram "></i></a></li>
+						<li><a href="http://www.pinterest.com/salmoneyec/"  target="_blank"  class="pinterest" aria-label="Pinterest"><i class="fa fa-pinterest "></i></a></li>
+					</ul> -->
+					
+					<a href="/contact-us.html" class="button">Book Now</a>
+				</div>
+				
+			</div>
+		</div>
+		
+	
+	
+		<footer>
+			<div class="inner">
+					<div id="finfo">
+						<a id="flogo" href="/"  class="png">Salmon Eye Fishing Charters</a>
+					</div>
+					
+					<nav id="footnav">
+					<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+
+  <ul class="fNav" id="fNavRoot" >
+        <li class="first sec_1"><a href="/" >Home</a>
+        </li>
+        <li class="sec_6 parent"><a href="/fishing-packages.html" class="parent" >Fishing Packages</a>
+            <ul>
+                <li  class="first"><a href="/fishing-packages/day-trips.html">Day Trips</a>
+                </li>
+                <li ><a href="/fishing-packages/signature-package.html">Signature Package</a>
+                </li>
+                <li ><a href="/fishing-packages/gold-fishing-package.html">Gold Fishing Package</a>
+                </li>
+                <li ><a href="/fishing-packages/silver-fishing-package.html">Silver Fishing Package</a>
+                </li>
+                <li ><a href="/fishing-packages/trophy-fishing-package.html">Trophy Fishing Package</a>
+                </li>
+                <li ><a href="/fishing-packages/basic-package.html">Basic Package</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sec_11 parent"><a href="/fishing-with-us.html" class="parent" >Fishing With Us</a>
+            <ul>
+                <li  class="first"><a href="/fishing-with-us/fishing-ucluelet.html">Fishing Ucluelet</a>
+                </li>
+                <li ><a href="/fishing-with-us/fishing-guides.html">Fishing Guides</a>
+                </li>
+                <li ><a href="/fishing-with-us/our-boats.html">Our Boats</a>
+                </li>
+                <li ><a href="/fishing-with-us/about-salmon-and-halibut.html">About Salmon and Halibut</a>
+                </li>
+                <li ><a href="/fishing-with-us/ucluelet-fishing-vs-alaska.html">Ucluelet Fishing vs Alaska</a>
+                </li>
+                <li ><a href="/fishing-with-us/fishing-resorts-comparison.html">Fishing Resorts Comparison</a>
+                </li>
+                <li ><a href="/fishing-with-us/fishing-reports.html">Fishing Reports</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sec_3 parent"><a href="/your-experience.html" class="parent" >Your Experience</a>
+            <ul>
+                <li  class="first"><a href="/your-experience/video-gallery.html">Video Gallery</a>
+                </li>
+                <li ><a href="/your-experience/photo-gallery.html">Photo Gallery</a>
+                </li>
+                <li ><a href="/your-experience/your-guarantee.html">Your Guarantee</a>
+                </li>
+                <li ><a href="/your-experience/top-8-questions.html">Top 8 Questions</a>
+                </li>
+                <li ><a href="/your-experience/client-testimonials.html">Client Testimonials</a>
+                </li>
+                <li ><a href="/your-experience/client-stories.html">Client Stories</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sec_4 parent"><a href="/plan-your-trip.html" class="parent" >Plan Your Trip</a>
+            <ul>
+                <li  class="first"><a href="/plan-your-trip/getting-here.html">Getting Here</a>
+                </li>
+                <li ><a href="/plan-your-trip/travel-information.html">Travel Information</a>
+                </li>
+                <li ><a href="/plan-your-trip/best-fime-to-fish.html">Best time to fish Ucluelet </a>
+                </li>
+                <li ><a href="/plan-your-trip/salmon-and-halibut-recipes.html">Salmon and Halibut Recipes</a>
+                </li>
+                <li ><a href="/plan-your-trip/about-vancouver-island.html">About Vancouver Island</a>
+                </li>
+                <li ><a href="/plan-your-trip/bc-fishing-license.html">BC Fishing License</a>
+                </li>
+                <li ><a href="/plan-your-trip/accommodations.html">Accommodations</a>
+                </li>
+                <li ><a href="/plan-your-trip/fishing-faqs.html">Fishing FAQ&#039;s</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sec_18 parent"><a href="/our-blog.html" class="parent" >Our Blog</a>
+            <ul>
+                <li  class="first"><a href="/our-blog/enhancement.html">Enhancement</a>
+                </li>
+                <li ><a href="/our-blog/fishing-reports.html">Fishing Reports</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sec_12 parent"><a href="/contact-us.html" class="parent" >Contact Us</a>
+            <ul>
+                <li  class="first"><a href="/contact-us/links.html">Links</a>
+                </li>
+            </ul>
+        </li>
+</ul>
+					</nav>
+			
+									
+					<div id="incontrol">
+							<a href="http://www.incontrolsolutions.com" target="_blank">Website by <span class="highlight">InControl Solutions.</span></a> <a href="http://www.webmasterCMS.com" target="_blank">Powered by <span class="highlight">WebmasterCMS M</span></a>
+					</div>
+			</div>
+			<div id="contactinfo">
+				<div class="width">
+					Copyright 2026 Salmon Eye Charters, Inc. Vancouver Island, British Columbia, Canada, 1-877-777-4344  (2021)<a href="#" id="wcmsLogin"  aria-label="WebmasterCMS"> <i class="fa fa-pencil" aria-hidden="true"></i> 
+ </a>
+
+				</div>
+			</div>
+		</footer> 
+
+	</div>
+	
+	<div style="opacity:0"><nav id="mobilem" class="" ><br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "sec_id" in <b>/home/salmoneye/public_html/webmasterCMS/functions/navigation.php</b> on line <b>358</b><br />
+
+  <ul class="mobilem" id="mobilemRoot" >
+        <li class="first sec_1"><a href="/" >Home</a>
+        </li>
+        <li class="sec_6 parent"><a href="/fishing-packages.html" class="parent" >Fishing Packages</a>
+            <ul>
+                <li  class="first"><a href="/fishing-packages/day-trips.html">Day Trips</a>
+                </li>
+                <li ><a href="/fishing-packages/signature-package.html">Signature Package</a>
+                </li>
+                <li ><a href="/fishing-packages/gold-fishing-package.html">Gold Fishing Package</a>
+                </li>
+                <li ><a href="/fishing-packages/silver-fishing-package.html">Silver Fishing Package</a>
+                </li>
+                <li ><a href="/fishing-packages/trophy-fishing-package.html">Trophy Fishing Package</a>
+                </li>
+                <li ><a href="/fishing-packages/basic-package.html">Basic Package</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sec_11 parent"><a href="/fishing-with-us.html" class="parent" >Fishing With Us</a>
+            <ul>
+                <li  class="first"><a href="/fishing-with-us/fishing-ucluelet.html">Fishing Ucluelet</a>
+                </li>
+                <li ><a href="/fishing-with-us/fishing-guides.html">Fishing Guides</a>
+                </li>
+                <li ><a href="/fishing-with-us/our-boats.html">Our Boats</a>
+                </li>
+                <li ><a href="/fishing-with-us/about-salmon-and-halibut.html">About Salmon and Halibut</a>
+                </li>
+                <li ><a href="/fishing-with-us/ucluelet-fishing-vs-alaska.html">Ucluelet Fishing vs Alaska</a>
+                </li>
+                <li ><a href="/fishing-with-us/fishing-resorts-comparison.html">Fishing Resorts Comparison</a>
+                </li>
+                <li ><a href="/fishing-with-us/fishing-reports.html">Fishing Reports</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sec_3 parent"><a href="/your-experience.html" class="parent" >Your Experience</a>
+            <ul>
+                <li  class="first"><a href="/your-experience/video-gallery.html">Video Gallery</a>
+                </li>
+                <li ><a href="/your-experience/photo-gallery.html">Photo Gallery</a>
+                </li>
+                <li ><a href="/your-experience/your-guarantee.html">Your Guarantee</a>
+                </li>
+                <li ><a href="/your-experience/top-8-questions.html">Top 8 Questions</a>
+                </li>
+                <li ><a href="/your-experience/client-testimonials.html">Client Testimonials</a>
+                </li>
+                <li ><a href="/your-experience/client-stories.html">Client Stories</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sec_4 parent"><a href="/plan-your-trip.html" class="parent" >Plan Your Trip</a>
+            <ul>
+                <li  class="first"><a href="/plan-your-trip/getting-here.html">Getting Here</a>
+                </li>
+                <li ><a href="/plan-your-trip/travel-information.html">Travel Information</a>
+                </li>
+                <li ><a href="/plan-your-trip/best-fime-to-fish.html">Best time to fish Ucluelet </a>
+                </li>
+                <li ><a href="/plan-your-trip/salmon-and-halibut-recipes.html">Salmon and Halibut Recipes</a>
+                </li>
+                <li ><a href="/plan-your-trip/about-vancouver-island.html">About Vancouver Island</a>
+                </li>
+                <li ><a href="/plan-your-trip/bc-fishing-license.html">BC Fishing License</a>
+                </li>
+                <li ><a href="/plan-your-trip/accommodations.html">Accommodations</a>
+                </li>
+                <li ><a href="/plan-your-trip/fishing-faqs.html">Fishing FAQ&#039;s</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sec_18 parent"><a href="/our-blog.html" class="parent" >Our Blog</a>
+            <ul>
+                <li  class="first"><a href="/our-blog/enhancement.html">Enhancement</a>
+                </li>
+                <li ><a href="/our-blog/fishing-reports.html">Fishing Reports</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sec_12 parent"><a href="/contact-us.html" class="parent" >Contact Us</a>
+            <ul>
+                <li  class="first"><a href="/contact-us/links.html">Links</a>
+                </li>
+            </ul>
+        </li>
+</ul>
+</nav></div>	
+		<!-- WebmasterCMS Requiered JS code -->
+    <script type="text/javascript" src="/_resources/js/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/_resources/min/?f=/_resources/wcmsJSCore.js"></script>
+    <script type="text/javascript" src="/_resources/min/?f=/_resources/jQueryPlugins/hoverIntent.js"></script>
+    <script type="text/javascript" src="/_resources/min/?f=/_resources/jQueryPlugins/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="/_resources/min/?f=/_resources/jQueryPlugins/jquery.forms.js"></script>
+    <script type="text/javascript" src="/_resources/min/?f=/_resources/jQueryPlugins/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="/_resources/min/?f=/themes/Salmon25/js/scripts.js"></script>
+    <script type="text/javascript" src="/_resources/min/?f=/themes/Salmon25/js/mmenu-light.js"></script>
+    <script type="text/javascript" src="/_resources/min/?f=/themes/Salmon25/js/lazy.js"></script>
+    <script type="text/javascript" src="/themes/Salmon25/js/waypoints.min.js"></script>
+    <script type="text/javascript" src="/_resources/min/?f=/_resources/jQueryPlugins/jquery.superfish.js"></script>
+    <script type="text/javascript" src="/_resources/min/?f=/_resources/jQueryPlugins/jquery.SVGawesome.js"></script>
+    <script type="text/javascript" src="/themes/Salmon25/js/splide.min.js"></script>
+    <script type="text/javascript" src="/_resources/min/?f=/custom_code/BlogFeed/scripts.js"></script>
+    <script type="text/javascript" src="/_resources/min/?f=/custom_code/BlogFeedFull/scripts.js"></script>
+    <script type="text/javascript" src="/_resources/min/?f=/custom_code/BlogFeedFullRows/scripts.js"></script>
+    <script type="text/javascript" src="/_resources/min/?f=/custom_code/Gallery-Filmstrip/scripts.js"></script>
+    <script type="text/javascript" src="/_resources/min/?f=/custom_code/Gallery-Grid/scripts.js"></script>
+    <script type="text/javascript" src="/_resources/min/?f=/custom_code/Gallery-Single/scripts.js"></script>
+    <script type="text/javascript" src="/_resources/min/?f=/custom_code/LargeCarousel/scripts.js"></script>
+    <script type="text/javascript" src="/_resources/min/?f=/custom_code/Testimonials/scripts.js"></script>
+	
+
+	
+
+</body>
+</html>	
+	

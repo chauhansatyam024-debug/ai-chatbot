@@ -9,7 +9,24 @@ def tokenize(token):
     """ tokenize the words , i mean split them ,so chatbot can use it """
     token = token.lower()
     token = (re.sub(r"[^\w\s]" , " " , token)).split()
+    token  = [simple_stem(word) for word in token]# we are removing suffix word by word
     return token
+
+
+def simple_stem(word):
+    """ here we adjust , that a word with different suffix will get same response"""
+
+    Suffix = ["ing","s","ed" ,"es"]
+    for suf in Suffix:
+       if word.endswith(suf)  and len(word) - len(suf) > 2:
+            return word[:-len(suf)] # returing word after removing suffix
+    return word #
+    """checking if the input is relevant 
+    for eg;- 'is' it has 's' suffix after removing 
+    's' word 'i' is without  meaning , is - 2  and s =1 and 2-1 < 2
+     so condition failed"""
+
+
 
 
 def score(tokens , pattern_inputs):
@@ -30,17 +47,15 @@ def score(tokens , pattern_inputs):
     return len(inter_set) / len(union_set) # we will get score in b/w 0 - 1
 
 
-    
-
-
 def getToken(token):
 
     """for output , here we take the best response"""
 
-
+    global matched
     token = tokenize(token)
     best_score = 0
     best_response = None
+    matched = False
     for intent in data['intents']:
         for pattern in intent['patterns']:
             pattern_tokens = tokenize(pattern)
@@ -48,31 +63,38 @@ def getToken(token):
             if( s > best_score):
                 best_score = s
                 best_response = intent["responses"]
-    """ here we check if there is no suitabel response , so we go to  fallback , coz the bot fallback"""
-
+                matched = True
+    """ here we check if there is no suitabel response , 
+    so we go to  fallback , coz the bot fallback"""
+    confidence_thres = 0.3
+    if best_score < confidence_thres: # we hv given confidence threshold , so bot doesn't use resposne lower than
+                                     # threshold
+        best_response =None
+        matched = False
     if ( best_response is None): # there can only be one None in whole progrram , so "is" check if this point to that "None"
         for intent in data["intents"]:
                 if(intent["tag"] == "fallback"):
                     best_response = intent["responses"]
 
 
-    return ch(best_response)
+    return ch(best_response) , matched
 
 def main():
     """this function is main , we all know what main is"""
     print("type 'quit' to exit")
 
-
     while True :
         user_input = input("You: ")
-
 
         if user_input.lower() == 'quit':
             print("Chatbot: bye")
             break
 
 
-        response = getToken(user_input)
+        response , matched = getToken(user_input)
+        if not matched:
+            with open("unmatched.log", "a") as file:
+                file.write(user_input + "\n")
         print(f"Chatbot:{response} ")
 
 if __name__ == "__main__":

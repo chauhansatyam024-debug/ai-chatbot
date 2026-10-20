@@ -1,0 +1,1533 @@
+<html lang="en"><head><script async src="https://www.googletagmanager.com/gtag/js?id=G-P462VB8RMG"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P462VB8RMG');
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9708475232630990" crossorigin="anonymous"></script><title>Zoomshare: Home</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="google-adsense-account" content="ca-pub-9708475232630990"><meta name="keywords" content="web page, website, domain, affordable web hosting, create a web site, design web site, web pages, web site, blog, calendar, build a web site, photo album, email, storage, Follow, Follow Friend, Follow Websites, file storage, personal website"><meta name="description" content="Build a website, follow friends, photo album, blog, file storage, email, and get a vanity domain with Zoomshare."><link href="css/yui-index.css" type="text/css" rel="stylesheet"><link href="css/zm-index.css" type="text/css" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"><link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"><link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.jqueryui.min.css"><link rel="stylesheet" href="https://cdn.datatables.net/scroller/2.2.0/css/scroller.jqueryui.min.css"><script type="text/javascript">
+                var TLD = (location.hostname.indexOf("dwqa")>-1) ? 'dwqa' : 'com';
+    </script><script type="text/javascript" src="js/jquery.js"></script><script type="text/javascript" src="js/yui-index.js"></script><script type="text/javascript">
+
+    /* <![CDATA[ */
+
+      // common ns
+      var C = YAHOO.util.Cookie;
+      var D = YAHOO.util.Dom;
+      var E = YAHOO.util.Event;
+      //var M = google.maps;
+      var W = YAHOO.widget;
+
+      // browse widget vars, a temp convenience
+      //var Cities = ZSFat.Cities, CCategories = ZSFat.Cat;
+      var ads_map, loc_map, loc_menu, pane;
+
+      function calllogin(){
+        
+        var f = document.getElementById('zslogin');
+        f.action = 'https://ssl.zoomshare.'+TLD+'/:slogin';
+        f.validate = function () {
+          var rc = false;
+          var u;
+          var p = f['p'].value;
+          try {
+            f['u'].value =
+            f['u'].value.replace(/^\s+/,'').replace(/\s+$/,'').toLowerCase();
+            u = f['u'].value;
+            if (! u.match(/\w/)) {
+              f['u'].focus(); throw('Please enter your username');
+            }
+            if (! p.match(/\w/)) {
+              f['p'].focus(); throw('Please enter your password');
+            }
+            if (u.match(/.\@.+/)) {
+              f['u'].focus();
+              throw(u + "looks like an e-mail address, not a username");
+            }
+            if (u.match(/[^a-z0-9\-]/)) {
+              f['u'].focus();
+              throw("Your username may only contain letters, " +
+                "numerals and hyphens");
+            }
+            rc = true;
+          }
+          catch (e) { alert(e); }
+          finally { return rc; }
+        };
+        return f.validate();
+      }
+
+
+    /* ]]> */
+    </script><style>
+
+        .foot {
+            color: #999;
+            font-size: 80%;
+            text-decoration: none;
+        }
+
+        .btn {
+            --bs-btn-padding-x: 0.25rem;
+            --bs-btn-padding-y: 0.175rem;
+        }
+
+        
+        /* feed user/date column: proportional sizing so both columns resize together */
+        .feed_user_date {
+            width: 25%;
+            max-width: none;
+            min-width: 120px;
+        }
+
+        .img-fluid {
+          max-width: 100% !important;
+          height: auto !important;
+          display: block;
+        }
+        .clock-container {
+            text-align: center;
+            font-size: 36px;
+            color: #333;
+            background-color: #f0f0f0;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #digital-clock {
+            margin-top: 45px;
+            font-family: 'Courier New', monospace;
+        }
+		
+        /* ensure generic img elements are responsive */
+        div.img-fluid {  max-width: 100% !important; height: auto !important; }
+        img { max-width: 100% !important; height: auto !important; }
+       
+        .ShortLink
+        {
+
+      word-break: break-all; /* Breaks words at any character to fit */
+    }
+
+    /* Responsive tweaks for small screens */
+    @media (max-width: 576px) {
+      .feed_user_date { max-width: none; width: auto; display: block; }
+      .table img { float: none !important; margin: 0.25rem auto; display: block; }
+      .clock-container { width: 140px; height: 140px; font-size: 20px; }
+      nav .container-fluid { padding-left: 0.5rem; padding-right: 0.5rem; }
+      /* keep table header fixed and aligned on small phones */
+      #feedTable thead th:first-child { width: 30% !important; }
+      #feedTable thead th:nth-child(2) { width: 70% !important; }
+    }
+
+    /* Ensure feed table uses the full available width on large screens */
+    #feedTable, table.dataTable {
+      width: 100% !important;
+    }
+    .dataTables_wrapper {
+      width: 100% !important;
+    }
+
+    /* Make table cells align to top so User/Date matches Notification height */
+    /* Reduced padding to show more rows on small screens */
+    #feedTable th, #feedTable td { vertical-align: top !important; padding: .35rem !important; }
+    .feed_user_date { padding: .35rem !important; }
+
+    /* Shade the entire row (both User/Date and Notification) for feed entries */
+    #feedTable tbody tr { background-color: #efefef; }
+    /* Ensure td backgrounds are transparent so tr shading shows through */
+    #feedTable tbody tr td { background-color: transparent; }
+    /* Keep header background white */
+    #feedTable thead th { background-color: #fff !important; }
+    /* Remove table gaps so shading appears continuous */
+    #feedTable { border-collapse: collapse; border-spacing: 0; }
+    /* Remove cell backgrounds that may create visible strips */
+    #feedTable td, #feedTable th { background-clip: padding-box; }
+    /* Make cell-inner use flex layout (avoid absolute positioning which caused overlaps) */
+    #feedTable tbody td { position: static; }
+    #feedTable tbody td .cell-inner { position: relative; display: flex; flex-direction: column; justify-content: flex-start; padding: .35rem; box-sizing: border-box; height: auto; }
+    /* Ensure the two-column notif-inner keeps image and text aligned without overflowing */
+    .notif-image { flex: 0 0 240px; max-width: 240px; overflow: hidden; }
+    .notif-image a { display: block; }
+    .notif-image img { display:block; max-width:100%; height:auto; float:none !important; object-fit: contain; }
+    @media (max-width: 576px) {
+      .notif-image { flex: 0 0 140px; max-width: 140px; }
+    }
+
+    /* --- Make each table row behave as a flex container for pixel-perfect equal heights --- */
+    /* Keep header as a table so DataTables header styles continue to work */
+    #feedTable thead, #feedTable tfoot { display: table; width: 100%; table-layout: fixed; }
+    /* Make tbody a block so rows can be flex containers */
+    #feedTable tbody { display: block; width: 100%; overflow-x: hidden; }
+    /* Each row becomes a flex container with two columns */
+    #feedTable tbody tr { display: flex; width: 100%; box-sizing: border-box; border-bottom: 1px solid #d0d0d0; overflow: hidden; }
+    /* Make cells behave as flex items */
+    #feedTable tbody tr td { display: block; flex: 0 0 auto; border: none; overflow: hidden; }
+    /* Left column default: percentage-based but constrained via min/max; body flex set below for responsivity */
+    #feedTable tbody tr td:first-child { /* placeholder, real values set later */ }
+    /* Right column takes remaining space */
+    #feedTable tbody tr td:nth-child(2) { flex: 1 1 auto; min-width: 0; }
+    /* Ensure the row background spans both 'columns' */
+    #feedTable tbody tr { background-color: #efefef; }
+    #feedTable tbody tr td { background: transparent; }
+    /* Keep header styling separate */
+    #feedTable thead th { display: table-cell; }
+
+    /* Ensure header column widths and padding match the body columns so borders align */
+    /* Make header widths flexible but constrained to match body min/max */
+    #feedTable thead th:first-child { width: 25%; max-width: 260px; min-width: 140px; box-sizing: border-box; }
+    #feedTable thead th:nth-child(2) { width: 75%; box-sizing: border-box; }
+    #feedTable thead th { padding: .75rem !important; border-bottom: 1px solid #d0d0d0; background-color: #fff !important; }
+
+    /* Keep two-column layout even on small screens (disable automatic stacking) */
+    /* Rows remain side-by-side; table container may scroll horizontally on very narrow viewports */
+    #feedTable tbody tr { flex-direction: row; }
+    /* Allow left column to grow/shrink within min/max while right column flexes */
+    /* Default proportional layout: allow both columns to grow/shrink proportionally
+       Use flex: 0 1 25% so left column can shrink if needed; right column flexes to fill remaining space */
+    #feedTable tbody tr td:first-child { flex: 0 1 25%; min-width: 120px; max-width: 260px; overflow: hidden; }
+    #feedTable tbody tr td:nth-child(2) { flex: 1 1 75%; min-width: 0; max-width: 100%; overflow: hidden; }
+    /* Ensure notification images don't overflow their cell when floated */
+    #feedTable td .cell-inner img { max-width: 100%; height: auto; display: block; }
+    #feedTable td .cell-inner { overflow: hidden; width: 100%; }
+
+    /* Notification inner layout: by default flex row, but stacked makes it vertical */
+    .notif-inner { display: flex; gap: .5rem; align-items: flex-start; }
+    /* Stacked layout: title, image, description vertically */
+    .notif-inner.notif-stacked { flex-direction: column; }
+    /* Title styling */
+    .notif-title { font-weight: 500; margin-bottom: .25rem; word-wrap: break-word; overflow-wrap: break-word; word-break: normal; }
+    /* Make image respect the available column space. On narrow screens the image will scale to its column width
+       so it cannot overflow or push into the Notification area. On wider screens we cap the image width. */
+    .notif-image { flex: 0 0 auto; max-width: 100%; margin-right: .25rem; }
+    /* Desktop / tablet: limit the image column to a comfortable visual size */
+    @media (min-width: 576px) {
+      .notif-image { flex: 0 0 300px; max-width: 300px; }
+      /* For stacked layout, let image use full width */
+      .notif-stacked .notif-image { flex: none; max-width: 100%; margin-right: 0; }
+    }
+    /* Make the image always scale to the container width (no cropping) */
+    .notif-image img { display: block; width: 100%; height: auto; max-height: 500px; border-radius: 8px; object-fit: contain; }
+    /* Small notification thumbnail inside notification text if inserted elsewhere */
+    img.notif-thumb { max-width: 100%; height: auto; display: block; }
+    .notif-text { flex: 1 1 auto; word-wrap: break-word; overflow-wrap: break-word; word-break: normal; max-width: 100%; overflow: hidden; }
+    /* Force long URLs and links to wrap/break properly */
+    .notif-text a { 
+      word-break: break-all !important; 
+      overflow-wrap: break-word !important; 
+      word-wrap: break-word !important;
+      hyphens: auto;
+      max-width: 100%;
+      display: inline;
+    }
+    @media (max-width: 576px) {
+      .notif-inner { flex-direction: column; }
+      .notif-image { flex: 0 0 auto; max-width: 100%; margin-right: 0; }
+      .notif-image img { max-height: 300px; }
+    }
+
+    /* Reduce extra spacing after the notification description and image */
+    .notif-text p { margin: 0 0 .25rem 0; }
+    .notif-text { margin-bottom: .25rem; }
+    .cell-inner.notif-cell { padding-bottom: .25rem; }
+
+    /* Center the digital clock and reduce spacing below it */
+    #digital-clock { display: block; text-align: center; margin: .15rem 0 0 0; }
+    /* header man image small spacing */
+    #header-man { margin-top: 6px; margin-bottom: 6px; }
+    .header-flex { display: inline-flex; gap: .75rem; align-items: center; justify-content: center; }
+
+    /* Align navbar items vertically with logo */
+    .navbar .container-fluid {
+      align-items: center;
+      display: flex;
+    }
+    .navbar-collapse {
+      align-items: center;
+    }
+    .navbar-nav {
+      margin-bottom: 0 !important;
+      align-items: center;
+    }
+    .navbar form.d-flex {
+      margin-bottom: 0;
+      align-items: center;
+    }
+
+    /* Remove default Bootstrap navbar padding that pushes buttons down */
+    @media (min-width: 992px) {
+      .navbar-expand-lg .navbar-collapse {
+        align-items: center;
+        display: flex !important;
+      }
+      .navbar-expand-lg .navbar-nav {
+        align-items: center;
+      }
+      .navbar .navbar-brand {
+        margin-bottom: 0;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+      }
+    }
+
+    /* Navigation login buttons stacking on mobile */
+    @media (max-width: 991px) {
+      /* When navbar is collapsed, stack the login buttons vertically and center them */
+      .navbar-collapse {
+        text-align: center;
+      }
+      .navbar-collapse .navbar-nav {
+        align-items: center;
+      }
+      .navbar-collapse form.d-flex {
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 100%;
+        margin-top: 1rem;
+      }
+      .navbar-collapse form.d-flex .btn {
+        margin-bottom: 0.5rem !important;
+        margin-right: 0 !important;
+        width: auto !important;
+        min-width: 150px;
+        max-width: 200px;
+      }
+      /* Position hamburger on the right on mobile */
+      .navbar .container-fluid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .navbar-toggler {
+        margin-left: auto;
+        order: 2;
+      }
+      .navbar-brand {
+        order: 1;
+      }
+      .navbar-collapse {
+        order: 3;
+        flex-basis: 100%;
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 576px) {
+      /* Keep man and quote inline on small screens but reduce sizes to fit */
+      .header-flex { gap: .5rem; }
+      .header-flex img { max-width: 64px !important; }
+      #header-quote { font-size: 95%; }
+    }
+
+    /* Controls layout: Show section on left, Search section on right, both with labels above */
+    .dataTables_wrapper { display: block; width: 100%; font-size: 0.85rem; }
+    /* Show section on the left - inline block */
+    .dataTables_wrapper .dataTables_length { 
+      margin: 0 0.5rem 0.5rem 0; 
+      display: inline-block;
+      vertical-align: top;
+    }
+    /* Search section on the right - inline block */
+    .dataTables_wrapper .dataTables_filter { 
+      margin: 0 0 0.5rem 0; 
+      display: inline-block;
+      vertical-align: top;
+    }
+    /* Make labels stack vertically (text above control) within each section */
+    .dataTables_wrapper .dataTables_length label {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.2rem;
+      font-size: 0.85rem;
+      margin: 0;
+      width: auto !important;
+      line-height: 1.5;
+    }
+    .dataTables_wrapper .dataTables_filter label {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      gap: 0.2rem;
+      font-size: 0.85rem;
+      margin: 0;
+      width: auto !important;
+      min-height: 48px;
+    }
+    /* Much smaller search input to fit side-by-side */
+    .dataTables_wrapper .dataTables_filter input { 
+      width: 200px !important; 
+      max-width: 100%; 
+      padding: 3px 6px; 
+      box-sizing: border-box; 
+      font-size: 0.85rem;
+      height: 28px;
+    }
+    /* Smaller dropdown select */
+    .dataTables_wrapper .dataTables_length select {
+      font-size: 0.85rem;
+      padding: 3px 6px;
+      height: 28px;
+    }
+    /* Center the pagination and info text below the table */
+    .dataTables_wrapper .dataTables_paginate,
+    .dataTables_wrapper .dataTables_info { 
+      display: block; 
+      text-align: center; 
+      width: 100%; 
+      margin-top: .5rem; 
+    }
+
+    /* Large-screen: use fixed table layout so colgroup widths apply and shading fills full width */
+    @media (min-width: 992px) {
+      #feedTable { table-layout: fixed; }
+      /* large-screen: make User/Date a fixed smaller width so Notification column is wider */
+      #feedTable col:first-child { width: 180px; }
+      /* ensure the entire row is shaded (both columns) */
+      #feedTable tbody tr td { background-color: #efefef; }
+      /* align large images to the left inside Notification column */
+      #feedTable td:nth-child(2) img { float: left; margin-right: 1rem; display: inline-block; }
+      /* remove extra right padding on table cells to let shading reach the edge */
+      #feedTable td, #feedTable th { padding-right: 1rem !important; }
+    }
+
+    /* Small screens: make notification column wider than the user/date column */
+    @media (max-width: 576px) {
+      /* keep left column at fixed 180px on small screens so notification area remains larger */
+      #feedTable col:first-child { width: 180px; }
+      #feedTable col:nth-child(2) { width: calc(100% - 180px); }
+      /* Keep controls inline but make them ultra-compact to fit side-by-side */
+      .dataTables_wrapper { 
+        font-size: 0.75rem !important;
+        padding: 0 !important;
+      }
+      .dataTables_wrapper .dataTables_length { 
+        display: inline-block !important; 
+        float: left !important;
+        margin: 0 0.3rem 0.4rem 0 !important;
+      }
+      .dataTables_wrapper .dataTables_filter { 
+        display: inline-block !important; 
+        float: right !important;
+        margin: 0 0 0.4rem 0 !important;
+      }
+      /* Keep labels above controls, just make them smaller */
+      .dataTables_wrapper .dataTables_length label,
+      .dataTables_wrapper .dataTables_filter label {
+        font-size: 0.75rem !important;
+        gap: 0.15rem !important;
+        min-height: auto !important;
+      }
+      .dataTables_wrapper .dataTables_length select {
+        font-size: 0.75rem !important;
+        padding: 2px 4px !important;
+        min-width: 45px !important;
+        height: 24px !important;
+      }
+      .dataTables_wrapper .dataTables_filter input { 
+        width: 80px !important;
+        font-size: 0.75rem !important;
+        padding: 2px 4px !important;
+        height: 24px !important;
+      }
+      /* reduce padding on small screens to tighten layout */
+      #feedTable thead th { padding: .45rem !important; }
+      /* On small screens place man and quote tighter: image left, text right */
+      #header-man { max-width: 84px; }
+      #header-quote { display: block; }
+      #header-row { margin-bottom: .25rem; }
+      /* compact DataTables labels */
+      .dataTables_wrapper label { margin: 0 !important; }
+    }
+
+    /* Compact DataTables labels and controls globally */
+    .dataTables_wrapper label { margin-right: .5rem; }
+    .dataTables_wrapper .dataTables_length select { height: 28px; }
+
+    /* Feed date/time responsive: show time under date on small screens */
+    .feed-date .date-part { display: inline; }
+    .feed-date .time-part { display: inline; color: inherit; }
+    @media (max-width: 576px) {
+      .feed-date .time-part { display: block; margin-top: .2rem; }
+      .user-name { font-weight: 700; }
+    }
+
+    /* Controls ordering with flex; keep length left and search right on wide screens */
+    .dataTables_wrapper .dataTables_length { order: 0; }
+    .dataTables_wrapper .dataTables_filter { order: 1; margin-left: auto; }
+    .dataTables_wrapper .dataTables_filter input { width: 150px !important; max-width: 100%; box-sizing: border-box; }
+
+    /* Limit image width on large screens so they don't dominate the layout */
+    @media (min-width: 992px) {
+      #feedTable img.img-fluid { max-width: 240px !important; height: auto !important; }
+      /* Limit large images that appear inside the Notification column so they don't dominate the page */
+      #feedTable td:nth-child(2) img {
+        max-width: 640px; /* absolute cap */
+        max-width: 60%; /* relative cap within container */
+        max-height: 480px;
+        width: auto !important;
+        height: auto !important;
+        display: block;
+        margin: .5rem 0; /* default vertical spacing; on large screens we float left */
+        object-fit: contain;
+      }
+    }
+    </style></head><body bgcolor="#fff" text="#000">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="width:100%; padding: 0;">
+      <div class="container" style="max-width:900px; margin:0 auto;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://zoomshare.com"><img class="img-fluid" src="img/ZS-Flame-Logo177-Italic.png" alt="zoomshare"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item" style="display:none"><a class="nav-link" href="/features.shtml">Features</a></li>
+            </ul>
+            <form class="d-flex" role="search">
+              <a class="btn btn-outline-primary me-2" style="display:none" href="https://signup.zoomshare.com">Sign Up</a>
+                <a class="btn btn-outline-primary me-2" href="/features.shtml">Features</a>
+              <button class="btn btn-outline-success me-2" type="button" data-bs-toggle="modal" data-bs-target="#loginModal">Tools Login</button>
+              <button id="followButton" class="btn btn-outline-info me-2" type="button" data-bs-toggle="modal" data-bs-target="#followloginModal">Follow Login</button>
+              <button type="button" id="logout-button" onclick="followlogout();" class="btn btn-outline-info" style="padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 16px; font-weight: bold;">Follow Logout</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+                         <div class="container">
+                        	<div class="row">
+                            	<div class="">
+                                	<h4 style="text-align:center; color:#cc3333">Get your Zoomshare website with <em><strong>Unlimited Follow Feature!</strong></em></h4>
+                                    
+                                     <span id="digital-clock" class=""></span>
+                                
+                                
+                                </div>
+                             </div>
+                               
+                                <div class="row my-1">
+                                    <div class="col-12 text-center">
+                                        <div class="header-flex d-inline-flex align-items-center" id="header-row">
+                                            <img id="header-man" src="img/man-phone-100b.png" class="img-fluid" alt="phone-man" style="max-width:100px;">
+                                            <span id="header-quote" style="font-style:italic; font-size:110%;">&quot;All your posts will appear on zoomshare.com&quot;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                 
+                            
+                            
+                         
+                            
+                            
+                            
+                            <table class="table table-striped lg-max-width-80% img-fluid" id="feedTable">
+                                <colgroup>
+                                    <col style="width:25%;">
+                                    <col style="width:75%;">
+                                </colgroup>
+                                <thead>
+                                  <tr>
+                                    <th class="feed_user_date" scope="col">User/Date</th>
+                                    <th scope="col">Notification</th>      
+                                  </tr>
+                                </thead>
+                                <tbody class="ShortLink">
+                                </tbody>
+                            </table>
+                          <h4 style="text-align: center;" id="loading_img">Feed is Loading... Please wait!</h4>
+                        </div> 
+                         <br><br>
+                        <div class="container">
+                            <a href="/privacyPolicy.shtml">Privacy Policy</a> | <a href="/tos.shtml">TOS</a> | <a href="/intellectual.shtml">Intellectual Property</a> | <a style="text-decoration:underline" href="mailto:customerservice@digitalwork.com?subject=Customer Service Inquiry from Zoomshare.com">Contact</a> <br>
+                            <span class="">Copyright © 1998-2026 DW Data, Inc. All Rights Reserved.<br>
+                          DigitalWork, I-Works, TotalWeb and Zoomshare are trademarks of DW Data, Inc. and may be registered in certain jurisdictions.</span>
+                        </div>    
+                            <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="loginModalLabel">Welcome Back!</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form id="zslogin" onsubmit="calllogin()" action="" method="post">
+                                                <div>
+                                                    <table>
+                                                        <tr>
+                                                            <td><strong>Login</strong></td>
+                                                            <td><span class="login">Username</span><br>
+                                                                <input type="text" id="u" name="u" size="10" maxlength="255" class="tiny" placeholder="zoomshare username" value="">
+                                                            </td>
+                                                            <td>
+                                                                <span class="login">Password</span><br>
+                                                                <input type="password" id="p" name="p" size="10" maxlength="255" class="tiny" placeholder="zoomshare password" value="">
+                                                            </td>
+                                                            <td>
+                                                                <input type="submit" name="gobutton" value="Zoomshare Log In" class="goButton">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="4" align="right">
+                                                                <a href="https://www.zoomshare.com/zoomshare_forgotpw.html" class="login">Forgot
+                                                                    your username or password?</a>
+                                                                <br><br>
+                                                                <div><em>Optimized for <a href="https://www.google.com/chrome/" target="_blank">Google Chrome</a></em></div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            <div class="modal fade" id="followloginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content" style="width: 70%;">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="loginModalLabel">Login to get your feeds!</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="signup-container">
+                                                <label for="email" style="display: block;text-align: left; margin-bottom: 5px;">Email:</label>
+                                                <input type="email" id="email" required style="width: 100%; padding: 5px;float: left;text-align: left; border: 1px solid #ccc; border-radius: 4px;">
+                                                <br>
+                                                <br>
+                                                <label for="password" style="display: block;text-align: left; margin-bottom: 5px;">Password:</label>
+                                                <div style="position: relative;">
+
+                                                <input type="password" id="password" required style="width: 100%; padding: 5px; border: 1px solid #ccc;float: left;text-align: left; border-radius: 4px;">
+                                                <br><br>
+                                                <span id="password-toggle" class="password-toggle" style="position: absolute; top: 8px; right: 10px; cursor: pointer;"><i class="fas fa-eye"></i></span>
+                                                </div>
+                                                <br>
+                                                
+                                                <span class="success_message" style="color: green;float: left;text-align: left;"></span>
+                                                <br>
+                                                <br>
+                                                <button type="button" id="login-button" onclick="followlogin();" style="padding: 8px 16px;float: left;text-align: left; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; font-weight: bold; background-color: #007bff; color: #fff;">Login</button>
+                                                
+                                                <button type="button" data-bs-dismiss="modal" aria-label="Close" style="padding: 8px 16px; border: none;float: left;text-align: left; border-radius: 4px; cursor: pointer; font-size: 16px; font-weight: bold; background-color: #dc3545; color: #fff; margin-left: 10px;">Cancel</button>
+                                                <br>
+                                                                                                
+                                                <a href="https://www.zoomshare.com/personalise_forgot_pw.html" class="login">Forgot your  password?</a>
+                                                <br><br>
+                                                <div><em>Optimized for <a href="https://www.google.com/chrome/" target="_blank">Google Chrome</a></em>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                 
+    </div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/dataTables.jqueryui.min.js"></script>
+<script src="https://cdn.datatables.net/scroller/2.2.0/js/dataTables.scroller.min.js"></script>
+<script>
+
+$(document).ready(function () {
+
+
+  jQuery("#password-toggle").click(function () {
+    var passwordInput = $("#password");
+    var passwordToggle = $("#password-toggle");
+
+    if (passwordInput.attr("type") === "password") {
+      passwordInput.attr("type", "text");
+      passwordToggle.html('<i class="fas fa-eye"></i>');
+    } else {
+      passwordInput.attr("type", "password");
+      passwordToggle.html('<i class="fas fa-eye-slash"></i>');
+    }
+  });
+
+  $("#login-button").click(function () {
+    // Your login button click handler here
+    followlogin();
+  });
+
+
+
+  
+ 
+});
+</script>
+
+
+<script>
+//this function authenticate the user if they have personalisation account or not
+    function followlogin(){
+        
+        var email = jQuery("#email").val();
+        var password = jQuery("#password").val();
+        var emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/;
+        if (email && password && emailRegex.test(email) ) {
+            var data = {
+                'email' : email,
+                'password' : password,
+                'action' :  'login_zoomshare'
+            };
+            jQuery.ajax({
+                url: 'https://www.followapi.zoomshare.com/index_follow.cgi',
+                method: 'POST',
+                data: data,
+                dataType: 'json',
+                success: function(responseData) {
+                    jQuery(".success_message").html("");
+                    if (responseData.success == true) {
+                        setCookie("uuid",responseData.uuid);
+                        setCookie("feeds_count",0);
+                        localStorage.removeItem("feeds_data_site_ids");
+                        localStorage.removeItem("feeds_data_file_size");
+                        if(setCookie){
+                          location.reload();
+                        }
+                      jQuery(".success_message").css("color","green");
+                      jQuery(".success_message").html(responseData.message);
+                
+
+                    }else{
+                      
+                      jQuery(".success_message").css("color","red");
+                      jQuery(".success_message").html(responseData.message);
+                      
+                    }
+                },
+                error: function(xhr, status, error) {
+                    console.error('Error:', status, error);
+                }
+            });
+
+        }else{
+        
+            jQuery(".success_message").css("color","red");
+            jQuery(".success_message").html("Please enter valid email and password !");
+            
+        }
+    }
+
+        function followlogout(){
+            document.cookie = "uuid=; expires=Thu, 01 Jan 1970 00:00:00 UTC;  domain=zoomshare.com;  path=/";
+            document.cookie = "uuid=;  expires=Thu, 01 Jan 1970 00:00:00 UTC;  path=/";
+            window.location.reload();
+
+        }
+
+    function showPersonalizationPopup() {
+      document.getElementById('personalizationPopup').style.display = 'block';
+    }
+
+    function hidePersonalizationPopup() {
+       document.getElementById('personalizationPopup').style.display = 'none';
+    }
+
+    function cancelSignup() {
+      hidePersonalizationPopup();
+    }
+
+    function setCookie(cname,cvalue) {
+      var date = new Date();
+      date.setTime(date.getTime() + (365 * 24 * 60 * 60 * 1000));
+      var expires = "expires=" + date.toUTCString();
+      document.cookie = cname + "=" + cvalue;
+      document.cookie = cname + "=" + cvalue + "; " + expires + "; domain=zoomshare.com;path=/";
+    }
+
+    function getCookie(cname) {
+        let name = cname + "=";
+        let decodedCookie = decodeURIComponent(document.cookie);
+        let ca = decodedCookie.split(';');
+        for(let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) == ' ') {
+              c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+              return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+
+
+var check_uuid = getCookie("uuid");
+if(check_uuid){
+    jQuery("#followButton").hide();
+    jQuery("#logout-button").show();
+    
+}else{
+    jQuery("#followButton").show();
+    jQuery("#logout-button").hide();
+    
+} 
+
+
+//this function checks file size and storing it to local sorage
+check_file_size();
+function check_file_size() {
+    var data = {
+      'action': 'check_file_size'
+    };
+    jQuery.ajax({
+      url: 'https://www.followapi.zoomshare.com/index_follow.cgi',
+      method: 'POST',
+      data: data,
+      dataType: 'json',
+      success: function(responseData) {
+        localStorage.setItem("feeds_data_file_size",JSON.stringify(responseData));
+      },
+      error: function(xhr, status, error) {
+        console.error('Error:', status, error);
+      }
+    });
+}
+
+
+var uuidValue_zoomshare = getCookie("uuid");
+//this function is storing all site_ids (name of sites user is following)
+cache_randomfeed_site_ids(uuidValue_zoomshare);
+function cache_randomfeed_site_ids(uuidValue_zoomshare) {
+    var data = {
+      'action': 'cache_randomfeed_site_ids',
+      'uuid' : uuidValue_zoomshare
+    };
+    jQuery.ajax({
+      url: 'https://www.followapi.zoomshare.com/index_follow.cgi',
+      method: 'POST',
+      data: data,
+      dataType: 'json',
+      success: function(responseData) {
+        if(responseData.action == "true") {
+            localStorage.removeItem("feeds_data_site_ids");
+            localStorage.setItem("feeds_data_site_ids",JSON.stringify(responseData.site_ids));
+        }
+      }, error: function(xhr, status, error) {
+        console.error('Error:', status, error);
+      }
+    });
+}
+//this is checking if person is having uuid value or not based on this personalise feed or random feeds 
+
+if(uuidValue_zoomshare){
+    personalize_feeds_onload(uuidValue_zoomshare);
+    setInterval(function() {
+//it is also checking feeds real time every 10 sec *********
+        personalize_random_feeds_refresh(uuidValue_zoomshare);
+        check_file_size();
+    }, 10000);
+}else {
+   showrandomfeeds_onload();
+   setInterval(function() {
+    showrandomfeeds_refresh();
+    check_file_size();
+    }, 10000); 
+}
+//this below function is called on load and it calls cache_randomfeed_site_ids function which will stores all sites in local storage every 3 minutes by making database call
+setInterval(function(){
+ cache_randomfeed_site_ids(uuidValue_zoomshare);
+},180000);
+
+
+//this function is called if person is having personalisation account and if he load zoomshare page
+function personalize_feeds_onload(uuidValue_zoomshare) {
+    if(uuidValue_zoomshare){
+          var data = {
+          'action': 'personalize_feeds_onload',
+          'uuid': uuidValue_zoomshare
+        };
+        jQuery.ajax({
+          url: 'https://www.followapi.zoomshare.com/index_follow.cgi',
+          method: 'POST',
+          data: data,
+          dataType: 'json',
+          success: function(responseData) {
+            
+            if (Array.isArray(responseData)) {
+              var feedarrayblog  = responseData;
+              fetchAndDisplayXMLFeed(feedarrayblog);
+            } else {
+                console.log("Invalid response format");
+            }
+          },
+          error: function(xhr, status, error) {
+            console.error('Error:', status, error);
+          }
+        });
+    }
+}
+    
+
+//this function is called if person is having personalisation account and a new blog is added.it is comparing size of files of local storage and server side file .
+function personalize_random_feeds_refresh(uuidValue_zoomshare){
+var feed_data_string = localStorage.getItem('feeds_data_file_size');
+var feeds_data_site_ids = localStorage.getItem('feeds_data_site_ids');
+
+if(uuidValue_zoomshare){
+      var data = {
+      'action': 'show_personalise_feed_refresh',
+      'uuid': uuidValue_zoomshare,
+      'feeds_data_file_size' : feed_data_string,
+      'feeds_data_site_ids'  : feeds_data_site_ids
+    };
+    jQuery.ajax({
+      url: 'https://www.followapi.zoomshare.com/index_follow.cgi',
+      method: 'POST',
+      data: data,
+      dataType: 'json',
+      success: function(responseData) {
+        if (Array.isArray(responseData)) {
+          var feedarrayblog  = responseData;
+          var feed_counts = getCookie("feeds_count");
+          feedRefersh(feedarrayblog, feed_counts);
+        } else {
+            console.log(responseData);
+        }
+      },
+      error: function(xhr, status, error) {
+        console.error('Error:', status, error);
+      }
+    });
+}
+}
+//this function is called if person not  having personalisation account and if he load zoomshare page
+function showrandomfeeds_onload() {
+
+var data = {
+    'action' :  'showrandomfeeds'
+};
+jQuery.ajax({
+  url: 'https://www.followapi.zoomshare.com/index_follow.cgi',
+  method: 'POST',
+  data: data,
+  dataType: 'json',
+  success: function(responseData) {
+   
+    
+    if (Array.isArray(responseData)) {
+      var feedarrayblog  = responseData;
+      var feedsArrayCount = feedarrayblog.length;
+      fetchAndDisplayXMLFeed(feedarrayblog);
+    } else {
+        console.log("Invalid response format");
+    }
+  },
+  error: function(xhr, status, error) {
+    console.error('Error:', status, error);
+  }
+});
+} 
+
+//this function is called if person not having personalisation account and a new blog is added.it is comparing size of files of local storage and server side file .
+
+function showrandomfeeds_refresh() {
+    var feed_data_string = localStorage.getItem('feeds_data_file_size');
+    var feeds_data_site_ids = localStorage.getItem('feeds_data_site_ids');
+    var data = {
+        'action' :  'showrandomfeeds_refresh',
+        'feeds_data_file_size' : feed_data_string,
+        'feeds_data_site_ids'  : feeds_data_site_ids
+    };
+    jQuery.ajax({
+      url: 'https://www.followapi.zoomshare.com/index_follow.cgi',
+      method: 'POST',
+      data: data,
+      dataType: 'json',
+      success: function(responseData) {
+        
+        if (Array.isArray(responseData)) {
+            
+          var feedarrayblog  = responseData;
+         
+          var feed_counts = getCookie("feeds_count");
+          
+          feedRefersh(feedarrayblog, feed_counts);
+        }
+      },
+      error: function(xhr, status, error) {
+        console.error('Error:', status, error);
+      }
+    });
+}
+
+//this function is setting feed count and storing it to storage
+
+    function feedRefersh(feedarrayblog, feed_counts){
+        fetchAndDisplayXMLFeedRealTime(feedarrayblog);
+    }
+//this below function is displaying xml feed on load .
+
+        function fetchAndDisplayXMLFeed(feedarrayblog) {
+
+            //var image_thumbnail_HTML = '';
+
+            var table = $('#feedTable').DataTable({
+                // Disable sorting and use responsive layout; column widths handled via CSS
+                "bSort": false,
+                "autoWidth": false,
+                "responsive": true,
+                "columnDefs": [
+                    { "targets": 0, "className": "feed_user_date" }
+                ],
+                "language": {
+                    "lengthMenu": "Show Entries _MENU_",
+                    "info": "Showing _START_ to _END_ of _TOTAL_"
+                }
+            });
+
+            // Scroll to top when pagination is clicked
+            table.on('page.dt', function() {
+                $('html, body').animate({
+                    scrollTop: $("#feedTable").offset().top - 20
+                }, 300);
+            });
+
+            if (table.rows().count() === 0) {
+                for(let i = 0; i < feedarrayblog.length; i++) {
+                    $("#loading_img").show();
+
+                    // Helper function to decode HTML entities and fix common encoding issues
+                    function decodeHTMLEntities(text) {
+                        if (!text) return '';
+                        if (typeof text !== 'string') text = String(text);
+
+                        // First decode HTML entities
+                        text = $('<textarea/>').html(text).text();
+
+                        // Replace the specific corrupted apostrophe pattern we're seeing
+                        // Ã¢ followed by replacement characters (ï¿½)
+                        text = text.replace(/Ã¢[\uFFFD\u0080-\u00FF]{1,3}/g, "'");
+
+                        // Also try character code approach for the exact sequence
+                        text = text.replace(/\u00E2\uFFFD\uFFFD/g, "'");
+                        text = text.replace(/\u00E2\u0080\u0099/g, "'");  // Right single quotation mark
+                        text = text.replace(/\u00E2\u0080\u009C/g, '"');  // Left double quotation mark
+                        text = text.replace(/\u00E2\u0080\u009D/g, '"');  // Right double quotation mark
+
+                        // Clean up any remaining Ã characters
+                        text = text.replace(/\u00C2/g, '');
+
+                        return text;
+                    }
+
+                    var record = feedarrayblog[i];
+                    var user = record.user; 
+                    var userHTML = '<strong>' + user + '</strong>';
+                    var image_thumbnail_HTML = '';
+                    var image_thumbnail_midsize_HTML = '';
+                    const parsedDate = new Date(record.date);
+
+                if (isNaN(parsedDate.getTime())) {
+
+                // Handle invalid date here, for example, set it to a default value
+                    var feed_date = 'Invalid Date';
+                } else {
+
+                    var feed_date = formatDateString(parsedDate);
+                }
+
+
+                    // split feed_date into date and time parts so we can stack time on small screens
+                    var _parts = feed_date.split(' ');
+                    var timePart = _parts.slice(-2).join(' ');
+                    var datePart = _parts.slice(0, -2).join(' ');
+                    var userDateCell = '<div class="cell-inner user-cell">' +
+                        '<div class="user-name">' + userHTML + '</div>' +
+                        '<div class="feed-date"><span class="date-part">' + datePart + '</span> <span class="time-part">' + timePart + '</span></div>' +
+                        '</div>';
+                    var description = record.description;
+                    var title = String(record.title || '');
+
+                    // Ensure description is a string and decode HTML entities
+                    if (typeof description === 'object' && description !== null) {
+                        // If description is an object, try to extract a meaningful value or use empty string
+                        if (description.content) {
+                            description = String(description.content);
+                        } else if (description.text) {
+                            description = String(description.text);
+                        } else {
+                            description = '';  // Just use empty string instead of "[object Object]"
+                        }
+                    } else {
+                        description = String(description || '');
+                    }
+
+                    // Decode HTML entities in title and description
+                    title = decodeHTMLEntities(title);
+                    description = decodeHTMLEntities(description);
+
+                    var thumbnail = record.thumbnail;
+                    var thumbnail_midsize = record.thumbnail_midsize;
+                    // Remove "new image:" prefix from photo titles
+                    var cleanTitle = title;
+                    if (title && title.toLowerCase().indexOf('new image:') === 0) {
+                        cleanTitle = title.substring(title.indexOf(':') + 1).trim();
+                    }
+                    var titleHTML = '<strong>' + cleanTitle + '</strong>';
+                    
+                    var link = record.link;
+                    var notificationText = '';
+                    var imageRegex = /image./;
+                    
+                    var match = imageRegex.exec(link);
+                    
+                    // Regex for finding the blog in link
+                    const blogRegex = /blog/g;
+                    const matchedLink = link.match(blogRegex);
+                    if (match) {
+                        // var imageURL = match[1];
+                        notificationText = '<p><a style="color:blue; font-weight:700;" href="' + link + '" target="_blank">Photo:</a> ' + titleHTML +'</p>';
+                        //image_thumbnail_HTML = '<p><a " href="' + link + '" target="_blank">' + '<img src="' + thumbnail + '" style="float:left;width:42px;height:42px;' +  '" alt="' + title + '"></p>';
+                        //image_thumbnail_HTML = '<a " href="' + link + '" target="_blank">' + '<img src="' + thumbnail + '" style="float:left;border:5px double black;border-radius: 5%; ' +  '" alt="' + title + '">';
+                        //image_thumbnail_midsize_HTML = '<a " href="' + link + '" target="_blank">' + '<img src="' + thumbnail_midsize + '" style="float:left;border:5px black;border-radius: 10%;padding: 0px 5px 0px 0px; ' +  '" alt="' + title + '">';
+                        image_thumbnail_HTML = '<a href="' + link + '" target="_blank">' + '<img class="img-fluid notif-thumb" src="' + thumbnail + '" alt="' + title + '"></a>';
+                        image_thumbnail_midsize_HTML = '<a href="' + link + '" target="_blank">' + '<img class="img-fluid notif-thumb" src="' + thumbnail_midsize + '" alt="' + title + '"></a>';
+                        //image_thumbnail_HTML = '<h2>----Test----</h2>';
+
+                    } else if (matchedLink) {
+                        var url_link = link;
+                        var regex_link = /:blog\?id=([A-Fa-f0-9_]+)/;
+                        var match_link = url_link.match(regex_link);
+                        if (match_link) {
+                              var extractedPart = match_link[1];
+                              var blogLink = link;
+                              notificationText = '<p><a style="color:blue; font-weight:700;" href="' + blogLink + '" target="_blank">Blog:</a> ' + titleHTML +'</p>';
+                        }
+                    }
+                    // Code for notification end
+
+                    var descriptionText = description;
+                    var descriptionContent = '';
+
+
+                     if (descriptionText != null) {
+                        if (descriptionText.length > 700) {
+                            // Display truncated description
+                             var cleanedText = descriptionText.replace(/<[^>]*>/g, '');
+                             // cleanedText = cleanedText.trim();
+                            descriptionContent = "<div class='less-zs-desc-content img-fluid" + i + "'>" + cleanedText.substring(0, 700) + "</div><div class='more-zs-desc-content img-fluid" + i + "' style='display:none;'>" + descriptionText + "</div>";
+                            var moreButton = "<p class='more-button more-button_"+i+"' onclick=\"truncateZSDescriptionTextmoreonload('.more-zs-desc-content" + i + "','.less-zs-desc-content" + i + "', 10000,  '_"+i+"');\"></p><p style='display:none;'  class='less-button less-button_"+i+"' onclick=\"truncateZSDescriptionTextlessonload('.more-zs-desc-content" + i + "', '.less-zs-desc-content" + i + "', 700, '_"+i+"');\"></p>";
+                            descriptionContent += moreButton;
+                        }else {
+                            // Description is short enough, no "more" button needed
+                              if (Object.keys(description).length === 0) {
+                               var descriptionContent = "";
+                            } else {
+                               var descriptionContent = descriptionText;
+                            }
+                        }
+                    }
+                    //var description_notification = notificationText + ' ' + descriptionContent + image_thumbnail_HTML;
+                    // Extract first image from description if no thumbnail exists
+                    var extractedImage = '';
+                    var cleanedDescription = descriptionContent;
+                    if ((!image_thumbnail_midsize_HTML || image_thumbnail_midsize_HTML.trim() === '') && descriptionContent) {
+                        // Try to extract first image from description
+                        var tempDiv = document.createElement('div');
+                        tempDiv.innerHTML = descriptionContent;
+                        var firstImg = tempDiv.querySelector('img');
+                        if (firstImg) {
+                            // Found an image, extract it
+                            extractedImage = '<a href="' + link + '" target="_blank">' + firstImg.outerHTML + '</a>';
+                            // Remove the image from description
+                            firstImg.remove();
+                            cleanedDescription = tempDiv.innerHTML;
+                        }
+                    }
+
+                    // Build notification inner: title above image, description below
+                    var notifInner = '';
+                    var finalImage = image_thumbnail_midsize_HTML || extractedImage;
+                    if (finalImage && finalImage.trim() !== '') {
+                        notifInner = '<div class="notif-inner notif-stacked">'
+                            + '<div class="notif-title">' + notificationText + '</div>'
+                            + '<div class="notif-image">' + finalImage + '</div>'
+                            + '<div class="notif-text">' + cleanedDescription + '</div>'
+                            + '</div>';
+                    } else {
+                        notifInner = '<div class="notif-inner notif-stacked">'
+                            + '<div class="notif-title">' + notificationText + '</div>'
+                            + '<div class="notif-text">' + cleanedDescription + '</div>'
+                            + '</div>';
+                    }
+                    var description_notification = '<div class="cell-inner notif-cell">' + notifInner + '</div>';
+                    table.row.add([userDateCell,description_notification]);
+                }
+                table.draw();
+                try {
+                    if (typeof table.columns === 'function') {
+                        table.columns().adjust();
+                    }
+                    if (table.responsive && typeof table.responsive === 'function') {
+                        table.responsive.recalc();
+                    }
+                } catch (e) {
+                    console.warn('DataTables adjust/recalc failed', e);
+                }
+            }
+             
+            $("#loading_img").hide();
+            $("input[type='search']").wrap("<form>");
+            $("input[type='search']").closest("form").attr("autocomplete","off");
+            $("#feedTable_filter label").css('display','flex');
+        }
+
+        function truncateZSDescriptionTextmoreonload(selectormore,selectorless, maxLength, desc_index) {
+                    
+            var element = document.querySelector(selectormore);
+            var truncated = element.innerText;
+            truncated = truncated.substr(0, truncated.length);
+             var moreselector = $(selectormore);
+             var lessselector = $(selectorless);
+             var lessbuttonselector = $(".less-button"+desc_index);
+             var morebuttonselector = $(".more-button"+desc_index);
+             moreselector.show();
+             lessbuttonselector.show();
+             morebuttonselector.hide();
+             lessselector.hide();
+             element.innerText = truncated;
+        }
+
+            function truncateZSDescriptionTextlessonload(selectormore,selectorless, maxLength, desc_index) {
+                    var element = document.querySelector(selectorless);
+                    var truncated = element.innerText;
+                    truncated = truncated.substr(0, maxLength) + '...';
+                    var moreselector = $(selectormore);
+                    var lessselector = $(selectorless);
+                    var lessbuttonselector = $(".less-button"+desc_index);
+                    var morebuttonselector = $(".more-button"+desc_index);
+                    lessbuttonselector.hide();
+                    morebuttonselector.show();
+                    moreselector.hide();
+                    lessselector.show();
+                    element.innerText = truncated;
+            }
+
+        //this below function is displaying xml feed on RealTime .
+        function fetchAndDisplayXMLFeedRealTime(feedarrayblog){
+            var tbody = $("#feedTable tbody");
+
+            if (tbody.children().length != 0) {
+                    var table = $('#feedTable').DataTable();
+                    var currentPage = 0;
+                    var currentLength = 10;
+                    var scrollPosition = $(window).scrollTop();  // Save scroll position
+
+                    // Save current page and page length before destroying
+                    if ($.fn.DataTable.isDataTable('#feedTable')) {
+                      var pageInfo = table.page.info();
+                      currentPage = pageInfo.page;
+                      currentLength = pageInfo.length;
+                      table.destroy();
+                    }
+
+                    table = $('#feedTable').DataTable({
+                        "bSort": false,
+                        "autoWidth": false,
+                        "responsive": true,
+                        "displayStart": currentPage * currentLength,  // Restore the page position
+                        "pageLength": currentLength,  // Restore the page length
+                        "columnDefs": [
+                            { "targets": 0, "className": "feed_user_date" }
+                        ],
+                        "language": {
+                            "lengthMenu": "Show Entries _MENU_",
+                            "info": "Showing _START_ to _END_ of _TOTAL_"
+                        }
+                    });
+
+                    // Scroll to top when pagination is clicked (but not on automatic refresh)
+                    table.off('page.dt').on('page.dt', function(e, settings) {
+                        // Only scroll on manual page click, not automatic redraw
+                        if (settings.bUserAction) {
+                            $('html, body').animate({
+                                scrollTop: $("#feedTable").offset().top - 20
+                            }, 300);
+                        }
+                    });
+
+                    var rowsToAdd = [];
+
+                    // Helper function to decode HTML entities and fix common encoding issues
+                    function decodeHTMLEntities(text) {
+                        if (!text) return '';
+                        if (typeof text !== 'string') text = String(text);
+
+                        // First decode HTML entities
+                        text = $('<textarea/>').html(text).text();
+
+                        // Replace the specific corrupted apostrophe pattern we're seeing
+                        // Ã¢ followed by replacement characters (ï¿½)
+                        text = text.replace(/Ã¢[\uFFFD\u0080-\u00FF]{1,3}/g, "'");
+
+                        // Also try character code approach for the exact sequence
+                        text = text.replace(/\u00E2\uFFFD\uFFFD/g, "'");
+                        text = text.replace(/\u00E2\u0080\u0099/g, "'");  // Right single quotation mark
+                        text = text.replace(/\u00E2\u0080\u009C/g, '"');  // Left double quotation mark
+                        text = text.replace(/\u00E2\u0080\u009D/g, '"');  // Right double quotation mark
+
+                        // Clean up any remaining Ã characters
+                        text = text.replace(/\u00C2/g, '');
+
+                        return text;
+                    }
+
+                    for(let i = 0; i < feedarrayblog.length; i++) {
+                        $("#loading_img").show();
+                        var record = feedarrayblog[i];
+                        var user = record.user;
+                        var userHTML = '<strong>' + user + '</strong>';
+                        const parsedDate = new Date(record.date);
+
+                        if (isNaN(parsedDate.getTime())) {
+
+                        // Handle invalid date here, for example, set it to a default value
+                            var feed_date = 'Invalid Date';
+                        } else {
+
+                            var feed_date = formatDateString(parsedDate);
+                        }
+
+                        var feed_date = formatDateString(parsedDate);
+                    var _parts = feed_date.split(' ');
+                    var timePart = _parts.slice(-2).join(' ');
+                    var datePart = _parts.slice(0, -2).join(' ');
+                    var userDateCell = '<div class="cell-inner user-cell">' +
+                        '<div class="user-name">' + userHTML + '</div>' +
+                        '<div class="feed-date"><span class="date-part">' + datePart + '</span> <span class="time-part">' + timePart + '</span></div>' +
+                        '</div>';
+                        var description = record.description;
+                        var title = String(record.title || '');
+
+                        // Ensure description is a string and decode HTML entities
+                        if (typeof description === 'object' && description !== null) {
+                            // If description is an object, try to extract a meaningful value or use empty string
+                            if (description.content) {
+                                description = String(description.content);
+                            } else if (description.text) {
+                                description = String(description.text);
+                            } else {
+                                description = '';  // Just use empty string instead of "[object Object]"
+                            }
+                        } else {
+                            description = String(description || '');
+                        }
+
+                        // Decode HTML entities in title and description
+                        title = decodeHTMLEntities(title);
+                        description = decodeHTMLEntities(description);
+
+                        // Remove "new image:" prefix from photo titles
+                        var cleanTitle = title;
+                        if (title && title.toLowerCase().indexOf('new image:') === 0) {
+                            cleanTitle = title.substring(title.indexOf(':') + 1).trim();
+                        }
+                        var titleHTML = '<strong>' + cleanTitle + '</strong>';
+                        var link = record.link;
+                        var notificationText = '';
+                        var imageRegex = /image./;
+                        var match = imageRegex.exec(link);
+                        // Regex for finding the blog in link
+                        const blogRegex = /blog/g;
+                        const matchedLink = link.match(blogRegex);
+                        if (match) {
+                            // var imageURL = match[1];
+                            notificationText = '<p><a style="color:blue; font-weight:700;" href="' + link + '" target="_blank" class="img-fluid">Photo:</a> ' + titleHTML +'</p>';
+                        } else if (matchedLink) {
+                             var url_link = link;
+                             var regex_link = /:blog\?id=([A-Fa-f0-9_]+)/;
+                             var match_link = url_link.match(regex_link);
+                             if (match_link) {
+                              var extractedPart = match_link[1];
+
+                              var blogLink = link;
+                              
+                              notificationText = '<p><a style="color:blue; font-weight:700;" href="' + blogLink + '" target="_blank" class="img-fluid">Blog:</a> ' + titleHTML +'</p>';
+                              
+                            }
+                        }
+                        // Code for notification end
+                        var descriptionText = description;
+                        var descriptionContent = '';
+
+                    if (descriptionText != null) {
+                         
+                        if (descriptionText.length > 700) {
+                            // Display truncated description
+                             var cleanedText = descriptionText.replace(/<[^>]*>/g, '');
+                             // cleanedText = cleanedText.trim();
+                            descriptionContent = "<div class='less-zs-desc-content img-fluid" + i + "'>" + cleanedText.substring(0, 700) + "</div><div class='more-zs-desc-content img-fluid" + i + "' style='display:none;'>" + descriptionText + "</div>";
+
+                            var moreButton = "<p class='more-button more-button-refresh_"+i+"' onclick=\"truncateZSDescriptionTextmoreonrefresh('.more-zs-desc-content" + i + "','.less-zs-desc-content" + i + "', 10000, '_"+i+"');\" class='img-fluid'></p><p style='display:none;' class='less-button less-button-refresh_"+i+"' onclick=\"truncateZSDescriptionTextlessonrefresh('.more-zs-desc-content" + i + "', '.less-zs-desc-content" + i + "', 700, '_"+i+"');\" class='img-fluid'></p>";
+
+                            descriptionContent += moreButton;
+                        }else {
+                            // Description is short enough, no "more" button needed
+                            if (Object.keys(description).length === 0) {
+                               var descriptionContent = "";
+                            } else {
+                               var descriptionContent = descriptionText;
+                            }
+                        }
+                    }
+                        // Build notification inner (image + text) for real-time refresh as well
+                        var thumbnail = record.thumbnail || '';
+                        var thumbnail_midsize = record.thumbnail_midsize || '';
+                        var image_thumbnail_HTML = '';
+                        var image_thumbnail_midsize_HTML = '';
+                        if (match) {
+                            image_thumbnail_HTML = '<a href="' + link + '" target="_blank">' + '<img class="img-fluid notif-thumb" src="' + thumbnail + '" alt="' + title + '"></a>';
+                            image_thumbnail_midsize_HTML = '<a href="' + link + '" target="_blank">' + '<img class="img-fluid notif-thumb" src="' + thumbnail_midsize + '" alt="' + title + '"></a>';
+                        }
+                        // Extract first image from description if no thumbnail exists
+                        var extractedImage = '';
+                        var cleanedDescription = descriptionContent;
+                        if ((!image_thumbnail_midsize_HTML || image_thumbnail_midsize_HTML.trim() === '') && descriptionContent) {
+                            // Try to extract first image from description
+                            var tempDiv = document.createElement('div');
+                            tempDiv.innerHTML = descriptionContent;
+                            var firstImg = tempDiv.querySelector('img');
+                            if (firstImg) {
+                                // Found an image, extract it
+                                extractedImage = '<a href="' + link + '" target="_blank">' + firstImg.outerHTML + '</a>';
+                                // Remove the image from description
+                                firstImg.remove();
+                                cleanedDescription = tempDiv.innerHTML;
+                            }
+                        }
+
+                        var notifInner = '';
+                        var finalImage = image_thumbnail_midsize_HTML || extractedImage;
+                        if (finalImage && finalImage.trim() !== '') {
+                            notifInner = '<div class="notif-inner notif-stacked">'
+                                + '<div class="notif-title">' + notificationText + '</div>'
+                                + '<div class="notif-image">' + finalImage + '</div>'
+                                + '<div class="notif-text">' + cleanedDescription + '</div>'
+                                + '</div>';
+                        } else {
+                            notifInner = '<div class="notif-inner notif-stacked">'
+                                + '<div class="notif-title">' + notificationText + '</div>'
+                                + '<div class="notif-text">' + cleanedDescription + '</div>'
+                                + '</div>';
+                        }
+                        var description_notification = '<div class="cell-inner notif-cell">' + notifInner + '</div>';
+                        rowsToAdd.push([userDateCell, description_notification]);
+                    }
+                    table.clear().rows.add(rowsToAdd).draw();
+
+                    // Restore scroll position after the table finishes drawing
+                    setTimeout(function() {
+                        $(window).scrollTop(scrollPosition);
+                    }, 50);
+            }
+
+            $("#loading_img").hide();
+            $("input[type='search']").wrap("<form>");
+            $("input[type='search']").closest("form").attr("autocomplete","off");
+            $("#feedTable_filter label").css('display','flex');
+        }
+
+        function truncateZSDescriptionTextmoreonrefresh(selectormore,selectorless, maxLength, desc_index) {
+            var element = document.querySelector(selectormore);
+            var truncated = element.innerText;
+            truncated = truncated.substr(0, truncated.length);
+             var moreselector = $(selectormore);
+             var lessselector = $(selectorless);
+             var lessbuttonselector = $(".less-button-refresh"+desc_index);
+             var morebuttonselector = $(".more-button-refresh"+desc_index);
+             lessbuttonselector.show();
+             morebuttonselector.hide();
+             moreselector.show();
+             lessselector.hide();
+            element.innerText = truncated;
+        }
+
+        function truncateZSDescriptionTextlessonrefresh(selectormore,selectorless, maxLength, desc_index) {
+                var element = document.querySelector(selectorless);
+                var truncated = element.innerText;
+                truncated = truncated.substr(0, maxLength) + '...';
+                var moreselector = $(selectormore);
+                var lessselector = $(selectorless);
+                var lessbuttonselector = $(".less-button-refresh"+desc_index);
+                var morebuttonselector = $(".more-button-refresh"+desc_index);
+                lessbuttonselector.hide();
+                morebuttonselector.show();
+                moreselector.hide();
+                lessselector.show();
+                element.innerText = truncated;
+        }
+
+        function findArrayDifference(array1, array2) {
+          const difference = [];
+
+          for (const item1 of array1) {
+            let found = false;
+            for (const item2 of array2) {
+              if (JSON.stringify(item1) === JSON.stringify(item2)) {
+                found = true;
+                break;
+              }
+            }
+            if (!found) {
+              difference.push(item1);
+            }
+          }
+
+          return difference;
+        }
+
+        // Function to format a Date object as "Thu Aug 10 4:40pm"
+        function formatDateString(date) {
+            const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+            const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+            const day = daysOfWeek[date.getDay()];
+            const month = months[date.getMonth()];
+            const dayOfMonth = date.getDate();
+            let hours = date.getHours();
+            const ampm = hours >= 12 ? "pm" : "am";
+            hours = hours % 12 || 12; // Convert to 12-hour format
+            const minutes = String(date.getMinutes()).padStart(2, '0');
+            const seconds = String(date.getSeconds()).padStart(2, '0');
+            return `${day} ${month} ${dayOfMonth} ${hours}:${minutes}:${seconds} ${ampm}`;
+        }
+
+
+
+        
+</script>
+<script>
+function updateClock() {
+    const now = new Date();
+    const hours = now.getHours().toString().padStart(2, '0');
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+    const seconds = now.getSeconds().toString().padStart(2, '0');
+    document.getElementById('digital-clock').textContent = `${hours}:${minutes}:${seconds}`;
+}
+
+// Update the clock every second
+setInterval(updateClock, 1000);
+
+// Initial clock update
+updateClock();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</div></body></html>
