@@ -2,3 +2,11 @@
 __pycache__/
 *.pyc
 .idea/
+practice/tensor/train/cat/
+practice/tensor/train/fish/
+
+practice/tensor/test/cat/
+practice/tensor/test/fish/
+
+practice/tensor/val/cat/
+practice/tensor/val/fish/
